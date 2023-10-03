@@ -1,3 +1,11 @@
 10/03/2023
 Fixed the unsigned 32-bit integer field for the exercise science project. Updated server and tested it. Thanks for the help from Matt to push code to the server.
 
+Filled Andover MOAA forms for WZ to compete. Should prepare him for it somehow. Which date?
+
+
+
+* Reminder:
+  1. I got a paper review due.
+  2. Tell wz about the MOAA dates.
+  
