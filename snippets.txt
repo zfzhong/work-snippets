@@ -6,6 +6,12 @@
 
 3. Finally get android app uploading local file to server working. Need to address details later.
 
+10/04/2023
+------------
+1. Communication diagram for ROSNode <---> USBL.
+
+2. Finished 4 items of the todo list of robotics: 1) no data transmission if the fish is not in water; 2) adjust source level based on RSSI; 3) initialized sync message from Top to Fish;
+
 
 * Reminder:
   1. I got a paper review due.
