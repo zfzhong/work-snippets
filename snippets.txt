@@ -12,6 +12,7 @@
 
 2. Finished 4 items of the todo list of robotics: 1) no data transmission if the fish is not in water; 2) adjust source level based on RSSI; 3) initialized sync message from Top to Fish;
 
+3. Sent Glenn ACG/HEART_RATE/GYRO log files extracted from the pixel watch.
 
 * Reminder:
   1. I got a paper review due.
