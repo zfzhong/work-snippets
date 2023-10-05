@@ -21,7 +21,14 @@
 6. Changed server code to add url to handle android files uploading.
 
 
+10/04/2023
+------------
+1. Start testing pixel watch for long logging hours. Probably will end in the afternoon 3:30pm.
+2. Shoot email to Matt to schedule a 15min meeting to update the server.
+
+
+
 * Reminder:
   1. I got a paper review due.
-  2. Tell wz about the MOAA dates.
+  2. robotics assignment (choose a topic)
   
