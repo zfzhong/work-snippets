@@ -18,6 +18,9 @@
 
 5. Sent another set of ACC/ACG/HEART_RATE/GYRO data to Glenn.
 
+6. Changed server code to add url to handle android files uploading.
+
+
 * Reminder:
   1. I got a paper review due.
   2. Tell wz about the MOAA dates.
