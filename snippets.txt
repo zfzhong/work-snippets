@@ -14,6 +14,10 @@
 
 3. Sent Glenn ACG/HEART_RATE/GYRO log files extracted from the pixel watch.
 
+4. I finished robotics class at 3:35 pm. There were only 5 people in the classroom (Monday 6 people).
+
+5. Sent another set of ACC/ACG/HEART_RATE/GYRO data to Glenn.
+
 * Reminder:
   1. I got a paper review due.
   2. Tell wz about the MOAA dates.
