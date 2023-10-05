@@ -25,7 +25,8 @@
 ------------
 1. Start testing pixel watch for long logging hours. Probably will end in the afternoon 3:30pm.
 2. Shoot email to Matt to schedule a 15min meeting to update the server.
-3. I have an idea of reading "Element of Style by Strunck & White" and program them in Python and use the python code to check my writings. Maybe somebody already did this.
+3. I have an idea of reading "Element of Style by Strunk & White" and program them in Python and use the python code to check my writings. Maybe somebody already did this.
+4. I should read Stunk & White for about 5 pages per day. It's a shame that I knew this book 20 years ago and I didn't read it thoroughly.
 
 
 
