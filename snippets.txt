@@ -38,7 +38,9 @@
 10/06/2023
 ------------
 1. Sent email to Michal about watch serial number; sent email to Ioannis abotu assignment topic: underwater communication.
-
+2. Spent the whole day updating ubuntu for raspberry pi, the GUI seems to heavy for the pi, when I started GUI the pi got freezed. CPU usage above 90%. Have to check with GUI for raspberry pi carefully.
+3. Just realized that a minor change, which I though was a correction, caused the server not accepting files. I came to public heath building and tested my code with Fitbit watch and found the bug. I corrected it and shot an email to Matt asking for updating server code.
+4. I am in awe finding out MOAA is tomorrow for William. I have to prepare him for it tonight.
 
 * Reminder:
   1. I got a paper review due (due oct 12)
