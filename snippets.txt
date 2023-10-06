@@ -6,6 +6,7 @@
 
 3. Finally get android app uploading local file to server working. Need to address details later.
 
+
 10/04/2023
 ------------
 1. Communication diagram for ROSNode <---> USBL.
@@ -28,6 +29,10 @@
 3. I have an idea of reading "Element of Style by Strunk & White" and program them in Python and use the python code to check my writings. Maybe somebody already did this.
 4. I should read Stunk & White for about 5 pages per day. It's a shame that I knew this book 20 years ago and I didn't read it thoroughly.
 5. Server code updated, but https requersting is not working with the android app. Need to debug.
+6. Finished one meet at 4:00pm, and another one at 5:30pm.
+7. Srihari gave feedback to me on my presence at the 3:00pm - 4:00pm meeting. He gave me score 1 out of 10. Technically, I should say "I will address the details later", instead of saying "I will address that little details later". The main idea is: Think carefully, speak clearly without yelling any garbage.
+8. I had reflection on being late.
+
 
 
 

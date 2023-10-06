@@ -1,0 +1,55 @@
+1. Why was I late for 20 mintues for the 3:00 pm meeting?
+
+* Being Late
+---------------
+The other day Ioannis was saying that in the US, if you are late for something, all people who are waiting for you might seriously consider it as being disrespectful.
+
+Clearly, I am having a habit of being late. It's time to make a change, maybe.
+
+I was telling myself that I had a meeting at 3pm. I never came up with the answer that I had to set out before 2:40pm. I needed 13 minutes to drive, and 7 minutes to find a parking spot.
+
+But before that I needed to wash my hair and change clothings. I was meeting with Matt at 2:15pm to push code to the server. I found the android phone could not upload files to the server via https. I started to debug and wasted sometime there. My wife reminded me that I had to eat lunch at 2:40pm.
+
+The whole morning I was working on robotics. I made some progress, but not to the extend I had expected. I tried to debug with the USBL modem until I found that the raspberry pi had to be connected to a monitor display. I didn't have a proper display at home.
+
+Overall, I tried to finish things in about 5 hours, but it turned out these things requires 10 hours. I might be able to finish them in 5 hours if I was super focous and efficient. But the truth is that I am not always that focus. For example, I spent sometime read Strunk & White.
+
+So why did I want to read Strunk & White in between my work. Because I wanted to have a break after I finished the Chrony setup with GPS. During that break I read a bit Strunk and White.
+
+
+* The Right Answer
+-------------------
+Someone might come to tell me: don't read that damn thing and focus on your coding! My response would be: No. Reading that damn thing was the only joy out of the 5 hours' work.
+
+The right answer is: having the right estimation for work.
+
+If you dont estimate your work properly, you end up not finishing them in time and that will distory all your plan.
+
+I thought about going to the office before 2pm and having meeting with Matt in the office. But when I received Matt's email, it's arleady 2:12pm and I still did not finish robotics work.
+
+I could not finish my first piece of work by the time the second piece arrived. Any plan afterward would get ruined anway.
+
+
+* The Root Cause & Remedy
+------------------
+The root cause of not estimating work properly is, as human being, we tend to over estimate ourselves. One common mistake is to use our best performance as regular performance.
+
+How to fix this? Be ease to under estimate yourself.
+
+Whenever someone ask you: can you get this done by next Monday? DONT RESPOND WITH YES/SURE/DEFINITELY.
+
+One good answer is: I will try, I might need more time though.
+
+
+* The Cost
+------------------
+The cost/problem is, when you don't give a firm answer, the other party might start to humiliate you by showing a death face or saying something like "oh, that I think is pretty easy, any undergrad with limit programming skill can finish it in 2 days". The situation might become complicated, difficult, and unpleasant.
+
+And that's what usually happen in life.
+
+But you really sholdn't lie to yourself for the purpose of making others happy.
+
+The fact is, you can't control others. You want to be truthful to yourself and you always try your best, regardless whatever other people say or show.
+
+You will become a better you anyway.
+
