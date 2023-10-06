@@ -6,4 +6,9 @@ Reading Notes: things that surprises me
    * abbr etc., i.e., e.g.
    * no comma to separate a restrictive terms of identification
    * no comma to separate a restrictive clause
-   
+
+2. How to use semicolon ';' and comma ','.
+   I had never been in the place before; besides, it was dark as a tomb.
+   Man proposes, God disposes.
+
+   The ';' indicates close relationship between to sentences. For short sentences or conversational sentences, ',' is used instead of ';'.
