@@ -35,9 +35,12 @@
 9. It's 1:12am of Nov 6, I am not done with raspberry pi desktop installation yet. Have to stop here and come back tomorrow. I don't have wireless connection for the pi so i could only use my cell phone hotspot. The past three hours only spent on updating the ubuntu 22 system, and not successful. I should move the whole setup to Ioannis's lab. The only problem was i didn't want to carry the heavy equipment there. I have to go there tomorrow anyway, sigh.
 
 
+10/06/2023
+------------
+1. Sent email to Michal about watch serial number; sent email to Ioannis abotu assignment topic: underwater communication.
 
 
 * Reminder:
-  1. I got a paper review due.
-  2. robotics assignment (choose a topic)
+  1. I got a paper review due (due oct 12)
+  2. robotics assignment (due oct 30)
   
