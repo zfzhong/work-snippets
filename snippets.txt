@@ -42,6 +42,7 @@
 3. Just realized that a minor change, which I though was a correction, caused the server not accepting files. I came to public heath building and tested my code with Fitbit watch and found the bug. I corrected it and shot an email to Matt asking for updating server code.
 4. I am in awe finding out MOAA is tomorrow for William. I have to prepare him for it tonight.
 5. Finished seminar at 3:10 pm. Quickly submitted my review. The speaker is a new faculty in Quantum Computing. He didn't finish his slides though. I am surprised he just finished half of his talk.
+6. I arrived at office around 10. I started to play with raspberry pi until 1:30pm. I grabbed lunch at firehouse sub, and came back to attend the seminar. I finished seminar and then wen to observe sanjib's demo for vice dean. The demon was ended around 4pm and then I went to public heath building to debug the fitbit uploading problem. I fixed the issue then came back to robotics lab to find out the raspberry pi was not able to run a heavy ubuntu-desktop application. I realized that I had to go home to help William with math preparation. I paid $10 for parking in the garage (10 hours). This was my day.
 
 
 * Reminder:
