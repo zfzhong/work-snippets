@@ -45,6 +45,12 @@
 6. I arrived at office around 10. I started to play with raspberry pi until 1:30pm. I grabbed lunch at firehouse sub, and came back to attend the seminar. I finished seminar and then wen to observe sanjib's demo for vice dean. The demon was ended around 4pm and then I went to public heath building to debug the fitbit uploading problem. I fixed the issue then came back to robotics lab to find out the raspberry pi was not able to run a heavy ubuntu-desktop application. I realized that I had to go home to help William with math preparation. I paid $10 for parking in the garage (10 hours). This was my day.
 
 
+10/09/2023
+------------
+1. Meeting at 11:30am. Had class 2:20-3:35.
+2. Done zooming matrix from 256x256 to 1001x1590, and saving the matrix as an audio file.
+
+
 * Reminder:
   1. I got a paper review due (due oct 12)
   2. robotics assignment (due oct 30)

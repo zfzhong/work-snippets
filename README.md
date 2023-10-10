@@ -1,4 +1,4 @@
-# Work Snipeets
+# Work Snippets
 
   Since I am generally busy working on multiple projects, I am trying to write a snippet on a daily basis to tell myself what I have accomplished for the day.
   I might forget to write it, though.
