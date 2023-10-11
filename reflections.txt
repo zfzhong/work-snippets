@@ -53,3 +53,20 @@ The fact is, you can't control others. You want to be truthful to yourself and y
 
 You will become a better you anyway.
 
+
+
+2. Why did it take a long time to figure out GPS/PPS or USBL NTP?
+Today I was asking myself, why did it take me almost a day to make GPS/PPS work? For about half an hour, I could not recall the problem I encountered with GPS/PPS. I re-read a tutorial and it helped me to remember. The reason was that for PPS to work, there is a pin that should be connected to the raspberry pi. The pin was not connected because we didn't use PPS before.
+
+
+I still could get GPS fix from /dev/ttyXXX, but PPS was not working. I initially thought it's a configuration problem. I spent a lot of time looking for a solution. Sombeody reported similar problems caused by configuration, and their solutions are just misleading. For my case, it was simply because of the pin. I got some wires out of nowhere and used the wires to connect the pin. When I isolated the problem and realized it's the pin problem, I tried different wires and made it work.
+
+For the USBL NTP client configuration, I needed to access the USBL via browser interface or via ssh over Putty. The raspberry pi I installed doesn't have a GUI. My plan was to install ubuntu-desktop and then start firefox. However, not only the installation of ubuntu-desktop was time consuming, the firefox would just freeze after the installation. The CPU usage was constantly more than 100%.
+
+I decided to install a light-weighted version of ubuntu on the raspberry pi. But I could only choose ubuntu 22 because that's the version for installing ROS2 in the system. I switched versions between ubuntu desktop/server/core. None of them worked (all freezed when opening firefox).
+
+Later, I decided to go the ssh way (abandon the firefox way). When I ssh to the USBL modem, the connection got rejected because the modem was configured years ago and it used weaker encryption algorithms. I have to use a version of Putty to establish the connection.
+
+The final solution is just install Xinit and Putty. Once 'startx', we launch putty and the connection would be established successfully. I don't really need to flash the raspberry pi. However, I already flashed one raspberry pi many times. This means I have to re-install ROS2 and configure it.
+
+

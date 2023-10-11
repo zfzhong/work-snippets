@@ -56,6 +56,11 @@
 2. 1:35am oct 11, 2023. Finally get raspberry pi flashed to ubuntu server 22 with xinit installed. I go with Putty instead of firefox for accessing the USBL modem. I spent a whole day on this trying different versions of ubuntu (ubunto core requires ssh key when configure the system -- but you dont even have access to the login shell). The GUI with firefox browser way was not right, PuttY way is the right choice. I turned on the modem's NTP service and set the modem's NTP server address using the raspberry pi's ethernet ip address. Still need to install ROS2, reconfigure GPS/Chrony.
 
 
+10/11/2023
+------------
+1. Had meeting with the robotics group; we are still understanding the problem of underwater syncrhonization. Sent an email to evologics, and got response that the USBL devices do not support underwater synchronization through acoustic channels. Evologics suggested synchronizing devices before sending the devices into the water.
+2. I had reflection on why it took me a long time to get GPS/PPS or USBL NTP working. The answer mainly is that I am away from the Unix system for too long; it took me a while to get familiar gain.
+
 * Reminder:
   1. I got a paper review due (due oct 12)
   2. robotics assignment (due oct 30)
