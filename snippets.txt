@@ -50,6 +50,11 @@
 1. Meeting at 11:30am. Had class 2:20-3:35.
 2. Done zooming matrix from 256x256 to 1001x1590, and saving the matrix as an audio file.
 
+10/10/2023
+------------
+1. Obeserved sanjib's demo, gleen/bridgets/michael are visiting the lab.
+2. 1:35am oct 11, 2023. Finally get raspberry pi flashed to ubuntu server 22 with xinit installed. I go with Putty instead of firefox for accessing the USBL modem. I spent a whole day on this trying different versions of ubuntu (ubunto core requires ssh key when configure the system -- but you dont even have access to the login shell). The GUI with firefox browser way was not right, PuttY way is the right choice. I turned on the modem's NTP service and set the modem's NTP server address using the raspberry pi's ethernet ip address. Still need to install ROS2, reconfigure GPS/Chrony.
+
 
 * Reminder:
   1. I got a paper review due (due oct 12)
