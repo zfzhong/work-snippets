@@ -61,6 +61,7 @@
 1. Had meeting with the robotics group; we are still understanding the problem of underwater syncrhonization. Sent an email to evologics, and got response that the USBL devices do not support underwater synchronization through acoustic channels. Evologics suggested synchronizing devices before sending the devices into the water.
 2. I had reflection on why it took me a long time to get GPS/PPS or USBL NTP working. The answer mainly is that I am away from the Unix system for too long; it took me a while to get familiar again.
 3. Attended Bahrat's PhD defense. One question from other professors mentioned that he should put his tenical contribution as well (his code).
+4. I tried to investigate sending https request in android app. I am just too tired because I have caught a cold. Luckily, I found a youtube video on how to program https request with android. I will follow it tomorrow morning.
 
 * Reminder:
   1. I got a paper review due (due oct 12)
