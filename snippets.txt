@@ -63,7 +63,22 @@
 3. Attended Bahrat's PhD defense. One question from other professors mentioned that he should put his tenical contribution as well (his code).
 4. I tried to investigate sending https request in android app. I am just too tired because I have caught a cold. Luckily, I found a youtube video on how to program https request with android. I will follow it tomorrow morning.
 
+  
+10/12/2023/
+----------
+1. Spent the whole morning to figure out the https request failure
+problem, and finally found it's the SSL certificate of the server
+can't be verified (it's issued by Let's Encrypt, which is not widely
+recognized). The solution is turn of ssl verification in the Kotlin
+code (Thanks to chatgpt). At about 2pm, I finally got the code
+working. It successfully uploaded files to the server.
+2. Had meeting with Glenn and Srihari.
+3. I am almost recovered from the cold, still need to drink a lot of
+warm water.
+4. I need to write an email to tell the editor that I will be late for
+submitting the review.
+
+
 * Reminder:
   1. I got a paper review due (due oct 12)
   2. robotics assignment (due oct 30)
-  
