@@ -64,8 +64,8 @@
 4. I tried to investigate sending https request in android app. I am just too tired because I have caught a cold. Luckily, I found a youtube video on how to program https request with android. I will follow it tomorrow morning.
 
   
-10/12/2023/
-----------
+10/12/2023
+------------
 1. Spent the whole morning to figure out the https request failure
 problem, and finally found it's the SSL certificate of the server
 can't be verified (it's issued by Let's Encrypt, which is not widely
@@ -77,6 +77,23 @@ working. It successfully uploaded files to the server.
 warm water.
 4. I need to write an email to tell the editor that I will be late for
 submitting the review.
+
+
+10/13/2023
+------------
+1. Happen to see some videos by ChessPage1 on youtube; the videos are
+pleasant to watch. I am attracted by the videos because it speaks out
+my opinions about studying chess openings: there are too many chess
+opening to study and it's impossible to literally memeorizing every
+step of them. The key strategy should be studying the fundamental game
+plan: for example, conqure the center, attack the king side, and the
+details (the usage of knight, the mission of the rook) of achieving
+these purposes. I watched two amazing games of white using Ruby Lopez
+and a game of black with Caro-Kann. The suggestion seems to be, as a
+chess amateur, always use Ruby Lopz and Caro-Kann.
+
+2. Just sent an email to the editor saying that I will submit the
+review by next week.
 
 
 * Reminder:
