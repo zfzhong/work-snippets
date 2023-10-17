@@ -118,6 +118,13 @@ short summary for all the talks (3 talks in total).
 -----------
 1. The plan is to get GPU working on the windows machine and then go
 to play raspberry pi, and continue reviewing the paper.
+2. Spent almost the whole day configuring tensoflow with gpu working
+on windows 11 WSL. The setting is working but the code complains. I
+believe I thave to run the same version of code for under a CPU
+setting and under a GPU setting concurrently to identify whether the
+complain is a GPU-specific issue. Will continue later this week.
+3. Have to go home and later come back to the robotics lab to work on
+robotics. 
 
 * Reminder:
   1. I got a paper review due (due oct 12)
