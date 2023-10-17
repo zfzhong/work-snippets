@@ -100,6 +100,25 @@ I could not find submission entrance coz the prof didn't put it online yet.
 I had 3 hours teaching in the night till 12:10am. I forgot to submit the
 Review before 11:59pm. The prof put it online around 8:30pm tho.
 
+10/16/2023
+-----------
+1. Forgot to write snippet. So this is a makeup.
+2. Spent whole morning working on mmwave project, got the dell laptop
+working with tensorflow, found that tensor flow > 2.10 doesnt support
+GPU on windows native system (I don't usually work on windows but I
+am given a windows machine with a mmwave radar). There is a bug in my
+matlab code converting spectrogram to audio, and sanjib helped me find
+the bug.
+3. Robotics class in the afternoon. ioannis requires us to write a
+short summary for all the talks (3 talks in total).
+4. Went grocery shopping and too tired to work. Still coughing a bit.
+
+
+10/17/2023
+-----------
+1. The plan is to get GPU working on the windows machine and then go
+to play raspberry pi, and continue reviewing the paper.
+
 * Reminder:
   1. I got a paper review due (due oct 12)
   2. robotics assignment (due oct 30)
