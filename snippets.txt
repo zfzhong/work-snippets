@@ -125,6 +125,10 @@ setting and under a GPU setting concurrently to identify whether the
 complain is a GPU-specific issue. Will continue later this week.
 3. Have to go home and later come back to the robotics lab to work on
 robotics. 
+4. Installed ROS2 on both Top/Fish after configured NTP. The Fish
+modem can't be accessed via ssh (access denied, not sure why). I
+installed firefox and get it configured via web browser. Still need to
+configure to make IMU/depth_sensor/GPS work.
 
 * Reminder:
   1. I got a paper review due (due oct 12)
