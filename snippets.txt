@@ -130,6 +130,17 @@ modem can't be accessed via ssh (access denied, not sure why). I
 installed firefox and get it configured via web browser. Still need to
 configure to make IMU/depth_sensor/GPS work.
 
+10/18/2023
+------------
+1. Meeting at 10:00-11:30, 11:30-12:30, and had class during 2:20pm
+-3:35pm. Spent some time fixing ubuntu booting, not chance testing ros
+colcon build.
+2. Investigating heart rate logs from android phone: timestamps are not
+always increasing (both t_android and t_unix). Not sure why, need more
+time to find out.
+
+
+
 * Reminder:
   1. I got a paper review due (due oct 12)
   2. robotics assignment (due oct 30)
