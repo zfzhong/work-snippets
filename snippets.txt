@@ -1,21 +1,28 @@
 10/03/2023
 ------------
-1. Fixed the unsigned 32-bit integer field for the exercise science project. Updated server and tested it. Thanks for the help from Matt to push code to the server.
+1. Fixed the unsigned 32-bit integer field for the exercise science
+project. Updated server and tested it. Thanks for the help from Matt
+to push code to the server. 
 
-2. Filled Andover MOAA forms for WZ to compete. Should prepare him for it somehow. Which date?
+2. Filled Andover MOAA forms for WZ to compete. Should prepare him for
+it somehow. Which date? 
 
-3. Finally get android app uploading local file to server working. Need to address details later.
+3. Finally get android app uploading local file to server
+working. Need to address details later. 
 
 
 10/04/2023
 ------------
 1. Communication diagram for ROSNode <---> USBL.
 
-2. Finished 4 items of the todo list of robotics: 1) no data transmission if the fish is not in water; 2) adjust source level based on RSSI; 3) initialized sync message from Top to Fish;
+2. Finished 4 items of the todo list of robotics: 1) no data
+transmission if the fish is not in water; 2) adjust source level based
+on RSSI; 3) initialized sync message from Top to Fish; 
 
 3. Sent Glenn ACG/HEART_RATE/GYRO log files extracted from the pixel watch.
 
-4. I finished robotics class at 3:35 pm. There were only 5 people in the classroom (Monday 6 people).
+4. I finished robotics class at 3:35 pm. There were only 5 people in
+the classroom (Monday 6 people). 
 
 5. Sent another set of ACC/ACG/HEART_RATE/GYRO data to Glenn.
 
@@ -24,44 +31,99 @@
 
 10/05/2023
 ------------
-1. Start testing pixel watch for long logging hours. Probably will end in the afternoon 3:30pm.
-2. Shoot email to Matt to schedule a 15min meeting to update the server.
-3. I have an idea of reading "Element of Style by Strunk & White" and program them in Python and use the python code to check my writings. Maybe somebody already did this.
-4. I should read Stunk & White for about 5 pages per day. It's a shame that I knew this book 20 years ago and I didn't read it thoroughly.
-5. Server code updated, but https requersting is not working with the android app. Need to debug.
+1. Start testing pixel watch for long logging hours. Probably will end
+in the afternoon 3:30pm. 
+2. Shoot email to Matt to schedule a 15min meeting to update the
+server. 
+3. I have an idea of reading "Element of Style by Strunk & White" and
+program them in Python and use the python code to check my
+writings. Maybe somebody already did this. 
+4. I should read Stunk & White for about 5 pages per day. It's a shame
+that I knew this book 20 years ago and I didn't read it thoroughly. 
+5. Server code updated, but https requersting is not working with the
+android app. Need to debug. 
 6. Finished one meet at 4:00pm, and another one at 5:30pm.
-7. Srihari gave feedback to me on my presence at the 3:00pm - 4:00pm meeting. He gave me score 1 out of 10. Technically, I should say "I will address the details later", instead of saying "I will address that little details later". The main idea is: Think carefully, speak clearly without yelling any garbage.
+7. Srihari gave feedback to me on my presence at the 3:00pm - 4:00pm
+meeting. He gave me score 1 out of 10. Technically, I should say "I
+will address the details later", instead of saying "I will address
+that little details later". The main idea is: Think carefully, speak
+clearly without yelling any garbage. 
 8. I had reflection on being late.
-9. It's 1:12am of Nov 6, I am not done with raspberry pi desktop installation yet. Have to stop here and come back tomorrow. I don't have wireless connection for the pi so i could only use my cell phone hotspot. The past three hours only spent on updating the ubuntu 22 system, and not successful. I should move the whole setup to Ioannis's lab. The only problem was i didn't want to carry the heavy equipment there. I have to go there tomorrow anyway, sigh.
+9. It's 1:12am of Nov 6, I am not done with raspberry pi desktop
+installation yet. Have to stop here and come back tomorrow. I don't
+have wireless connection for the pi so i could only use my cell phone
+hotspot. The past three hours only spent on updating the ubuntu 22
+system, and not successful. I should move the whole setup to Ioannis's
+lab. The only problem was i didn't want to carry the heavy equipment
+there. I have to go there tomorrow anyway, sigh. 
 
 
 10/06/2023
 ------------
-1. Sent email to Michal about watch serial number; sent email to Ioannis abotu assignment topic: underwater communication.
-2. Spent the whole day updating ubuntu for raspberry pi, the GUI seems to heavy for the pi, when I started GUI the pi got freezed. CPU usage above 90%. Have to check with GUI for raspberry pi carefully.
-3. Just realized that a minor change, which I though was a correction, caused the server not accepting files. I came to public heath building and tested my code with Fitbit watch and found the bug. I corrected it and shot an email to Matt asking for updating server code.
-4. I am in awe finding out MOAA is tomorrow for William. I have to prepare him for it tonight.
-5. Finished seminar at 3:10 pm. Quickly submitted my review. The speaker is a new faculty in Quantum Computing. He didn't finish his slides though. I am surprised he just finished half of his talk.
-6. I arrived at office around 10. I started to play with raspberry pi until 1:30pm. I grabbed lunch at firehouse sub, and came back to attend the seminar. I finished seminar and then wen to observe sanjib's demo for vice dean. The demon was ended around 4pm and then I went to public heath building to debug the fitbit uploading problem. I fixed the issue then came back to robotics lab to find out the raspberry pi was not able to run a heavy ubuntu-desktop application. I realized that I had to go home to help William with math preparation. I paid $10 for parking in the garage (10 hours). This was my day.
+1. Sent email to Michal about watch serial number; sent email to
+Ioannis abotu assignment topic: underwater communication. 
+2. Spent the whole day updating ubuntu for raspberry pi, the GUI seems
+to heavy for the pi, when I started GUI the pi got freezed. CPU usage
+above 90%. Have to check with GUI for raspberry pi carefully. 
+3. Just realized that a minor change, which I though was a correction,
+caused the server not accepting files. I came to public heath building
+and tested my code with Fitbit watch and found the bug. I corrected it
+and shot an email to Matt asking for updating server code. 
+4. I am in awe finding out MOAA is tomorrow for William. I have to
+prepare him for it tonight. 
+5. Finished seminar at 3:10 pm. Quickly submitted my review. The
+speaker is a new faculty in Quantum Computing. He didn't finish his
+slides though. I am surprised he just finished half of his talk. 
+6. I arrived at office around 10. I started to play with raspberry pi
+until 1:30pm. I grabbed lunch at firehouse sub, and came back to
+attend the seminar. I finished seminar and then wen to observe
+sanjib's demo for vice dean. The demon was ended around 4pm and then I
+went to public heath building to debug the fitbit uploading problem. I
+fixed the issue then came back to robotics lab to find out the
+raspberry pi was not able to run a heavy ubuntu-desktop application. I
+realized that I had to go home to help William with math
+preparation. I paid $10 for parking in the garage (10 hours). This was
+my day. 
 
 
 10/09/2023
 ------------
 1. Meeting at 11:30am. Had class 2:20-3:35.
-2. Done zooming matrix from 256x256 to 1001x1590, and saving the matrix as an audio file.
+2. Done zooming matrix from 256x256 to 1001x1590, and saving the
+matrix as an audio file. 
 
 10/10/2023
 ------------
-1. Obeserved sanjib's demo, gleen/bridgets/michael are visiting the lab.
-2. 1:35am oct 11, 2023. Finally get raspberry pi flashed to ubuntu server 22 with xinit installed. I go with Putty instead of firefox for accessing the USBL modem. I spent a whole day on this trying different versions of ubuntu (ubunto core requires ssh key when configure the system -- but you dont even have access to the login shell). The GUI with firefox browser way was not right, PuttY way is the right choice. I turned on the modem's NTP service and set the modem's NTP server address using the raspberry pi's ethernet ip address. Still need to install ROS2, reconfigure GPS/Chrony.
+1. Obeserved sanjib's demo, gleen/bridgets/michael are visiting the
+lab. 
+2. 1:35am oct 11, 2023. Finally get raspberry pi flashed to ubuntu
+server 22 with xinit installed. I go with Putty instead of firefox for
+accessing the USBL modem. I spent a whole day on this trying different
+versions of ubuntu (ubunto core requires ssh key when configure the
+system -- but you dont even have access to the login shell). The GUI
+with firefox browser way was not right, PuttY way is the right
+choice. I turned on the modem's NTP service and set the modem's NTP
+server address using the raspberry pi's ethernet ip address. Still
+need to install ROS2, reconfigure GPS/Chrony. 
 
 
 10/11/2023
 ------------
-1. Had meeting with the robotics group; we are still understanding the problem of underwater syncrhonization. Sent an email to evologics, and got response that the USBL devices do not support underwater synchronization through acoustic channels. Evologics suggested synchronizing devices before sending the devices into the water.
-2. I had reflection on why it took me a long time to get GPS/PPS or USBL NTP working. The answer mainly is that I am away from the Unix system for too long; it took me a while to get familiar again.
-3. Attended Bahrat's PhD defense. One question from other professors mentioned that he should put his tenical contribution as well (his code).
-4. I tried to investigate sending https request in android app. I am just too tired because I have caught a cold. Luckily, I found a youtube video on how to program https request with android. I will follow it tomorrow morning.
+1. Had meeting with the robotics group; we are still understanding the
+problem of underwater syncrhonization. Sent an email to evologics, and
+got response that the USBL devices do not support underwater
+synchronization through acoustic channels. Evologics suggested
+synchronizing devices before sending the devices into the water. 
+2. I had reflection on why it took me a long time to get GPS/PPS or
+USBL NTP working. The answer mainly is that I am away from the Unix
+system for too long; it took me a while to get familiar again. 
+3. Attended Bahrat's PhD defense. One question from other professors
+mentioned that he should put his tenical contribution as well (his
+code). 
+4. I tried to investigate sending https request in android app. I am
+just too tired because I have caught a cold. Luckily, I found a
+youtube video on how to program https request with android. I will
+follow it tomorrow morning. 
 
   
 10/12/2023
@@ -153,6 +215,14 @@ night.
 1. The plan is to finish paper review.
 2. Finished & submitted the review.
 
+
+10/22/2023
+-----------
+1. Got two crappies today at Parr Reservoir Bridge.
+2. Tried to install matlabengine on MacOS so that I can invoke matlab
+code from python, not successful.
+
+
 * Reminder:
-  1. I got a paper review due (due oct 12)
-  2. robotics assignment (due oct 30)
+  1. robotics presentation review
+  1. robotics assignment (due oct 30)
