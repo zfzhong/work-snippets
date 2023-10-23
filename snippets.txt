@@ -221,6 +221,11 @@ night.
 1. Got two crappies today at Parr Reservoir Bridge.
 2. Tried to install matlabengine on MacOS so that I can invoke matlab
 code from python, not successful.
+3. Fixed matlab code to generate 11 5-second sub-audios from a
+10-second audio file. We generate the spectrogram of each sub-audio
+and convert them back to audio. Verified that all audios generated
+from spectrogram are good (can hear the content clearly). However, the
+spectrogram dimension changed a bit, need to retrain with pix2pix.
 
 
 * Reminder:
