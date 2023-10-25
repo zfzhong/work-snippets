@@ -227,6 +227,15 @@ and convert them back to audio. Verified that all audios generated
 from spectrogram are good (can hear the content clearly). However, the
 spectrogram dimension changed a bit, need to retrain with pix2pix.
 
+10/24/2023
+-----------
+1. Meeting and class.
+2. Basekt coaching for Tina.
+
+10/25/2023
+-----------
+1. All day on Wear OS app development with Kotlin.
+
 
 * Reminder:
   1. robotics presentation review
