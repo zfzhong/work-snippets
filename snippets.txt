@@ -243,6 +243,18 @@ spectrogram dimension changed a bit, need to retrain with pix2pix.
 1. Come a plan to code Wear OS UI (UIControlViewModel) with
 viewModel. Once the UI is done, then move to sensor coding (refer to
 WearOSSensors)
+2. I felt so tired this morning that I could not sit in front of my
+computer. I laid down on my sofa and fall asleep for about 2
+hours. Felt much better when I woke up for a seminar class at 2:20pm.
+3. The talk by a ass. prof from Korean (PhD from CMU) was more like a
+quick overview of 3 projects out of his research work. He published
+serveral good papers but his talk is not coherent at all. Given that I
+witnessed several professors not even fishing their talk, he is
+notheless on the better side. Anway, it's obviously a matter of
+preparation.
+4. Got the WearOsStopWatch example working. Previously my gradle build
+tool was too old and things just didn't work. This is the example that
+I will borrow code from. 
 
 
 * Reminder:
