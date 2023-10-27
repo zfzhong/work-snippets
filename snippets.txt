@@ -238,6 +238,13 @@ spectrogram dimension changed a bit, need to retrain with pix2pix.
 2. Basketball coaching for Tina and WZ.
 3. Finished first Wear OS app: displaying list.
 
+10/26/2023
+-----------
+1. Come a plan to code Wear OS UI (UIControlViewModel) with
+viewModel. Once the UI is done, then move to sensor coding (refer to
+WearOSSensors)
+
+
 * Reminder:
   1. robotics presentation review
   1. robotics assignment (due oct 30)
