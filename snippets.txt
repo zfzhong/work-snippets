@@ -227,18 +227,19 @@ and convert them back to audio. Verified that all audios generated
 from spectrogram are good (can hear the content clearly). However, the
 spectrogram dimension changed a bit, need to retrain with pix2pix.
 
-10/24/2023
+10/23/2023
 -----------
 1. Meeting and class.
 2. Basekt coaching for Tina.
 
-10/25/2023
+10/24/2023
 -----------
 1. All day on Wear OS app development with Kotlin.
 2. Basketball coaching for Tina and WZ.
 3. Finished first Wear OS app: displaying list.
 
-10/26/2023
+
+10/27/2023
 -----------
 1. Come a plan to code Wear OS UI (UIControlViewModel) with
 viewModel. Once the UI is done, then move to sensor coding (refer to
@@ -250,12 +251,19 @@ hours. Felt much better when I woke up for a seminar class at 2:20pm.
 quick overview of 3 projects out of his research work. He published
 serveral good papers but his talk is not coherent at all. Given that I
 witnessed several professors not even fishing their talk, he is
-notheless on the better side. Anway, it's obviously a matter of
+nonetheless on the better side. Anway, it's obviously a matter of
 preparation.
 4. Got the WearOsStopWatch example working. Previously my gradle build
 tool was too old and things just didn't work. This is the example that
 I will borrow code from. 
 
+10/28/2023
+------------
+1. Just realized that I got all dates wrong for the week while writing
+snippets -- which shines a light on what condition I was in.
+2. Got accelerometer working with a nice watch UI. We gotta know a lot
+of design patterns in order to quickly write some serious software
+enginering level code. 
 
 * Reminder:
   1. robotics presentation review
