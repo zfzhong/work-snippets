@@ -265,6 +265,13 @@ snippets -- which shines a light on what condition I was in.
 of design patterns in order to quickly write some serious software
 enginering level code. 
 
+10/29/2023
+------------
+1. Add a button on Watch to transfer file to the server. Click to send
+http request tested. The plan is to  finish file transfer from watch
+tonight. 
+
+
 * Reminder:
   1. robotics presentation review
   1. robotics assignment (due oct 30)
