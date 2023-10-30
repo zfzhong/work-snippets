@@ -274,6 +274,12 @@ tonight.
 files to the server from watch. Need to work on ambient mode and test
 for hours tomorrow.
 
+10/30/2023
+------------
+1. Got uploading progress/status done. Still need to work on ambient
+mode.
+
+
 * Reminder:
   1. robotics presentation review
   1. robotics assignment (due oct 30)
