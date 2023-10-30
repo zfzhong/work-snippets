@@ -270,7 +270,9 @@ enginering level code.
 1. Add a button on Watch to transfer file to the server. Click to send
 http request tested. The plan is to  finish file transfer from watch
 tonight. 
-
+2. Got accel/gyro/heart (all 3 sensors) working. Transferred all 3 log
+files to the server from watch. Need to work on ambient mode and test
+for hours tomorrow.
 
 * Reminder:
   1. robotics presentation review
