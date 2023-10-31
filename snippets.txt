@@ -278,6 +278,9 @@ for hours tomorrow.
 ------------
 1. Got uploading progress/status done. Still need to work on ambient
 mode.
+2. Through a 2-hour test, the App failed transfering Accel/Gyro files
+to the server (mostly likely due to it's large size). The plan is to
+write into multiple files (6000 entries for each file).
 
 
 * Reminder:
