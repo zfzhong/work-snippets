@@ -285,6 +285,13 @@ write into multiple files (6000 entries for each file).
 of 6000 records. Tested.
 4. Sort files and transfer files one bye one in order so that it is
 easier to browse these files from the web interface of the server. 
+5. The wear os App still needs one more major piece of work on ambient
+mode, I can work on it on Wednesday since I need to work on robotics
+tomorrow. And now, I have to start my bib assignment on underwater
+communication. I had class today and I have no idea what the
+presentation on graphSLAM is about. Can't you imagine how busy I am?
+It's like I am holding 10 plates and I try to eat them all at once.
+
 
 * Reminder:
   1. robotics presentation review
