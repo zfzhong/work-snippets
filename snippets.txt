@@ -283,7 +283,8 @@ to the server (mostly likely due to it's large size). The plan is to
 write into multiple files (6000 entries for each file).
 3. Logging data written to multiple files, each of which has a limit
 of 6000 records. Tested.
-
+4. Sort files and transfer files one bye one in order so that it is
+easier to browse these files from the web interface of the server. 
 
 * Reminder:
   1. robotics presentation review
