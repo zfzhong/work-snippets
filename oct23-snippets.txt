@@ -292,7 +292,15 @@ communication. I had class today and I have no idea what the
 presentation on graphSLAM is about. Can't you imagine how busy I am?
 It's like I am holding 10 plates and I try to eat them all at once.
 
+10/31/2023
+------------
+1. Morning drawing some math graph (took a while).
+2. Got the Raspberry Pi 5 box from dept secretary's office. Flashed Pi
+5 with Ubuntu 22 and it didn't work. Flashed it again with Ubuntu 23
+and it worked but ROS2 can't be installed on Ubuntu 23. Tried to build
+from source and found out that ros-dev-tools can't be installed on
+Ubuntu 23 (give up building from source).
+3. Started bib research on underwater communication and foud Fadel
+from MIT has been doing a project on underwater backscatter
+communication. 
 
-* Reminder:
-  1. robotics presentation review
-  1. robotics assignment (due oct 30)

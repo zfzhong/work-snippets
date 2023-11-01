@@ -1,0 +1,25 @@
+11/01/2023
+------------
+1. Robotics meeting: reported Fadel's work on underwater backscatter
+communication and Ioannis didn't give a dime on it. Then I switch to
+report that Ubuntu 22 doesn't support Raspberry Pi 5 and ROS2 only
+works on Ubuntu 22 and I had to order 2 Raspberry Pi 4 boards
+yesterday (will arrive on Thursday). Remanucaturing Fish will be
+done since Titon already 3D-printed the holder.
+
+2. It turned out that the WearSlog doesn't need ambient mode, we just
+have to keep the app ALWAYS_ON. There is a flag in the code to set:
+FLAG_KEEP_SCREEN_ON.
+
+3. Tested WearSlog for 30 minutes and found out the sorting of files
+was based on string comparision; re-coded the sorting based on
+comparison of file numbers and tested, and it's working. Realized that
+the accelerometer changed sampling rate from 50Hz to 100Hz during the
+logging. The first 65 files are logged at 50Hz, and the rest of over
+100 files are logged at 100Hz. This is just weird.
+
+
+
+* Reminder:
+  1. robotics presentation review
+  1. robotics assignment (due oct 30)
