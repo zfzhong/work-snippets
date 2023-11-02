@@ -18,7 +18,10 @@ the accelerometer changed sampling rate from 50Hz to 100Hz during the
 logging. The first 65 files are logged at 50Hz, and the rest of over
 100 files are logged at 100Hz. This is just weird.
 
+4. Found out the sampling frequency change was due to the fact that
+other Apps that use accelerometer might set it to 100Hz.
 
+5. Did underwater communication bib research, wil finish tomorrow.
 
 * Reminder:
   1. robotics presentation review
