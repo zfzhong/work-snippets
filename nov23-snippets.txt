@@ -23,6 +23,26 @@ other Apps that use accelerometer might set it to 100Hz.
 
 5. Did underwater communication bib research, wil finish tomorrow.
 
+11/02/2023
+------------
+1. Check log file and found that WearSlog stopped in the morning
+around 4:30am, it lasted about 7.5 hours and ran out of battery. So
+letting screen on is a bad idea.
+2. Tried to log onPause/onResume events when the screen goes
+off. Looks like accelerometer has data when screen goes off but hear
+rate sensor stopped report data. Need backgorund sensor service.
+3. Tried PassiveData app and it didn't work so well since I dont know
+how frequently it should report the data, and the data is claimed to
+be reported in batch while PassiveData only records the latest one.
+4. Gathered all research papers for underwater communication, need to
+write the report.
+5. Raspberry Pi 4 arrived.
+
+11/03/2023
+-----------
+1. Regular teaching and assignment work (6:00am - 9:00am). 
+
 * Reminder:
   1. robotics presentation review
-  1. robotics assignment (due oct 30)
+  2. robotics assignment (due oct 30)
+  3. Robotics presentation (nov 13)
