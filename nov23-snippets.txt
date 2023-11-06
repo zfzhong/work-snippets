@@ -75,6 +75,7 @@ Kalman Filter for 3D Attitude Estimation'[1]. I also found some other
 useful docs for understanding quarternions[2,3].
 6. To understand quarternions, i have to understand 3D rotation groups
 first. 
+7. I gotta to re-learn symmetric and skew-symmetric matrices.
 
 * Reminder:
   1. robotics presentation review
