@@ -60,6 +60,12 @@ with GPU. 'conda deactivate', then the system default env works with
 GPU. Potentially because the system has GPU driver installed by
 default. Anyway, will figure out the enviroment issues later. Ideally,
 we should have a virtual env with GPU working.
+3. I want to figure out how much the phase affects the quality of the
+audio with sampling frequency above 40k Hz (right now we are using a
+frequency of 12k Hz). I should get some audio samples and feed them
+into the inverse spectrogram code pipleline (gen spectrogram, only get
+the norm of the Fourier coefficients, and reverse back to audio) and
+see how it works.
 
 
 * Reminder:
