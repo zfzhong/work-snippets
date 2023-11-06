@@ -70,7 +70,8 @@ see how it works.
 code last time was that I used the absolute value of the input audio
 signal, not the absoluate value of the FFT result. He said that that
 phase info in the FFT result should account for about 50% of the info.
-
+4. Nice to find the quarternion algebra basics introduced in 'Indirect
+Kalman Filter for 3D Attitude Estimation'.
 
 * Reminder:
   1. robotics presentation review
