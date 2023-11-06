@@ -71,10 +71,20 @@ code last time was that I used the absolute value of the input audio
 signal, not the absoluate value of the FFT result. He said that that
 phase info in the FFT result should account for about 50% of the info.
 4. Nice to find the quarternion algebra basics introduced in 'Indirect
-Kalman Filter for 3D Attitude Estimation'.
+Kalman Filter for 3D Attitude Estimation'[1]. I also found some other
+useful docs for understanding quarternions[2,3]. 
 
 * Reminder:
   1. robotics presentation review
   2. Robotics presentation (nov 13)
   3. robotics assignment 2 (calibration of camera, due nov 15)
   
+* References:
+1. "Indirect Kalman Filter for 3D Attitude Estimation",
+https://cse.sc.edu/~yiannisr/774/2023/indirect-kalman-filter-for-3d-attitude-estimation.pdf
+
+2. "Rotations in Three-Dimensions: Euler Angles and Rotation Matrices",
+https://danceswithcode.net/engineeringnotes/rotations_in_3d/rotations_in_3d_part1.html
+
+3. "Rotation conversion tool",
+https://danceswithcode.net/engineeringnotes/quaternions/conversion_tool.html
