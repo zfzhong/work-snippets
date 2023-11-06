@@ -55,6 +55,11 @@ I should know how it works.
 1. The plan is get pix2pix original code working with GPU on the dell
 laptop, and train the pix2pix model for audio data using two saparate
 matrices (one for frequency, one for phase).
+2. On dell laptop, enter WSL system, the conda env doesn't work well
+with GPU. 'conda deactivate', then the system default env works with
+GPU. Potentially because the system has GPU driver installed by
+default. Anyway, will figure out the enviroment issues later. Ideally,
+we should have a virtual env with GPU working.
 
 
 * Reminder:
