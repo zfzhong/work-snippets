@@ -66,6 +66,10 @@ frequency of 12k Hz). I should get some audio samples and feed them
 into the inverse spectrogram code pipleline (gen spectrogram, only get
 the norm of the Fourier coefficients, and reverse back to audio) and
 see how it works.
+4. During meeting, sanjib pointed out that the mistake i had in my
+code last time was that I used the absolute value of the input audio
+signal, not the absoluate value of the FFT result. He said that that
+phase info in the FFT result should account for about 50% of the info.
 
 
 * Reminder:
