@@ -50,9 +50,15 @@ write the report.
 2. Start to read  FAB-MAP paper: the Chow-Liu Tree seems interesting,
 I should know how it works.
 
+11/06/2023
+-----------
+1. The plan is get pix2pix original code working with GPU on the dell
+laptop, and train the pix2pix model for audio data using two saparate
+matrices (one for frequency, one for phase).
+
 
 * Reminder:
   1. robotics presentation review
   2. Robotics presentation (nov 13)
-  3. robotics assignment 2 (calibration of camera)
+  3. robotics assignment 2 (calibration of camera, due nov 15)
   
