@@ -47,6 +47,8 @@ write the report.
 11/05/2023
 -----------
 1. Submitted assignment 1 for robotics class (delayed 1 week).
+2. Start to read  FAB-MAP paper: the Chow-Liu Tree seems interesting,
+I should know how it works.
 
 
 * Reminder:
