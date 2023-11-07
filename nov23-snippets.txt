@@ -79,6 +79,8 @@ first.
 got it: A = A' (A_{ij} = A_{ji}, symmetric), A = -A' (A_{ij} =
 -A_{ji}, skew-symmetric).
 8. Quaternion and Euler parameters stated clearly in [8].
+9. And it's good to know that vector dot product is just a vector
+projection to another vector (u\dot v = |u|\times|v|\times cos\theta).
 
 * Reminder:
   1. robotics presentation review
