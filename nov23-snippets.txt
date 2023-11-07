@@ -99,3 +99,9 @@ https://danceswithcode.net/engineeringnotes/quaternions/quaternions.html
 
 5. "Rotations with quaternions",
 https://juliageometry.github.io/Quaternions.jl/v0.7/examples/rotations/
+
+6. "Algebra and geometry of Hamilton’s quaternions",
+https://link.springer.com/article/10.1007/s12045-016-0358-9
+
+7. "On Quaternions and Octonions: Their Geometry, Arithmetic, and Symmetry",
+https://math.ucr.edu/home/baez/octonions/conway_smith/
