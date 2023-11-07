@@ -79,8 +79,18 @@ first.
 got it: A = A' (A_{ij} = A_{ji}, symmetric), A = -A' (A_{ij} =
 -A_{ji}, skew-symmetric).
 8. Quaternion and Euler parameters stated clearly in [8].
-9. And it's good to know that vector dot product is just a vector
-projection to another vector (u\dot v = |u|\times|v|\times cos\theta).
+9. And it's good to know that vector dot product is to 1) project a
+vector to another vector and 2) multiple their magnitudes to get a
+scalar (u\dot v = |u|\times|v|\times cos\theta).
+
+11/07/2023
+-----------
+1. Now I got a better understanding of the Euler Parameters and
+Quarternions. The Nikravesh's book is very helpful. I also know what
+vector cross product is (I probably learned this in UT Austin
+before). I definitely show spend some time to to redraw the figure 6.5
+and reason the steps to get e_0, e_1, e_2, e_3 for quarternions. 
+
 
 * Reminder:
   1. robotics presentation review
@@ -111,3 +121,4 @@ https://math.ucr.edu/home/baez/octonions/conway_smith/
 
 8. "Computer-Aided Analysis of Mechanical Systems" by P. E. Nikravesh
 https://www.u.arizona.edu/~pen/ame553/Hallway/CAAMS/CAAMS_06.pdf
+https://www.u.arizona.edu/~pen/ame553/ (full book)
