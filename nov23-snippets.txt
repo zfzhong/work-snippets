@@ -78,6 +78,7 @@ first.
 7. I gotta to re-learn symmetric and skew-symmetric matrices. Oh, I
 got it: A = A' (A_{ij} = A_{ji}, symmetric), A = -A' (A_{ij} =
 -A_{ji}, skew-symmetric).
+8. Quaternion and Euler parameters stated clearly in [8].
 
 * Reminder:
   1. robotics presentation review
@@ -105,3 +106,6 @@ https://link.springer.com/article/10.1007/s12045-016-0358-9
 
 7. "On Quaternions and Octonions: Their Geometry, Arithmetic, and Symmetry",
 https://math.ucr.edu/home/baez/octonions/conway_smith/
+
+8. "Computer-Aided Analysis of Mechanical Systems" by P. E. Nikravesh
+https://www.u.arizona.edu/~pen/ame553/Hallway/CAAMS/CAAMS_06.pdf
