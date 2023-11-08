@@ -105,7 +105,8 @@ modems + sensors (imu+gps) + ros2.
 2. robotics meeting: ioannis is asking me document everything and put
 code into github repo. I created the repo and started writing README:
 https://github.com/zfzhong/underwater-usbl-comm#hareware-devices-for-the-fish
-
+3. Installed ROS2 on both Top/Fish. Should double check ros-dev-tools
+gets installed on Top. 
 
 
 
