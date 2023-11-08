@@ -86,10 +86,22 @@ scalar (u\dot v = |u|\times|v|\times cos\theta).
 11/07/2023
 -----------
 1. Now I got a better understanding of the Euler Parameters and
-Quarternions. The Nikravesh's book is very helpful. I also know what
+Quaternions. The Nikravesh's book is very helpful. I also know what
 vector cross product is (I probably learned this in UT Austin
 before). I definitely show spend some time to to redraw the figure 6.5
-and reason the steps to get e_0, e_1, e_2, e_3 for quarternions. 
+and reason the steps to get e_0, e_1, e_2, e_3 for quarternions.
+2. Quaternion is NOT quarter-nion. I now know that rotation is matrix
+conjugation: q * u * conj(q). I need to get the matrix algebra done
+thoughly on mind.
+3. Installed raspberry pi 4, installed ros2 on top.
+
+11/08/2023
+----------
+1. On the way home I realized that I messed up the ip address of eth0
+and the ip address of modem, and that's why I couldn't ping the
+modem. I just fixed it this morning and now the modems are working
+fine. I need to write down all the steps to setup the environment for
+modems + sensors (imu+gps) + ros2.
 
 
 * Reminder:
