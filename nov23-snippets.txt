@@ -102,6 +102,11 @@ and the ip address of modem, and that's why I couldn't ping the
 modem. I just fixed it this morning and now the modems are working
 fine. I need to write down all the steps to setup the environment for
 modems + sensors (imu+gps) + ros2.
+2. robotics meeting: ioannis is asking me document everything and put
+code into github repo. I created the repo and started writing README:
+https://github.com/zfzhong/underwater-usbl-comm#hareware-devices-for-the-fish
+
+
 
 
 * Reminder:
