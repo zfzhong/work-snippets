@@ -96,7 +96,7 @@ thoughly on mind.
 3. Installed raspberry pi 4, installed ros2 on top.
 
 11/08/2023
-----------
+-----------
 1. On the way home I realized that I messed up the ip address of eth0
 and the ip address of modem, and that's why I couldn't ping the
 modem. I just fixed it this morning and now the modems are working
@@ -107,6 +107,17 @@ code into github repo. I created the repo and started writing README:
 https://github.com/zfzhong/underwater-usbl-comm#hareware-devices-for-the-fish
 3. Installed ROS2 on both Top/Fish. Should double check ros-dev-tools
 gets installed on Top. 
+4. During the robotics class, Titon was continuing his presentation on
+paper[1]. I figured out how the quaternion derivative was done
+(basically it's the derivative of \theta over t -> \omega). Because
+quaternion is a function of \theta, and the derivative over t is the
+angular velocity \omega.
+
+
+11/09/2023
+-----------
+1. I am working on the matrix algebra part of the quaternion, I am
+getting the L(q) and R(q) and skew-symmetric matrix.
 
 
 
