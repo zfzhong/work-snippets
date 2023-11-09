@@ -112,6 +112,10 @@ paper[1]. I figured out how the quaternion derivative was done
 (basically it's the derivative of \theta over t -> \omega). Because
 quaternion is a function of \theta, and the derivative over t is the
 angular velocity \omega.
+5. WZ attended AMC10 at Dreher High and he did 8 problems. He shared
+one problem with me and it turned out he did it wrong. I was happy that
+he treated it seriously. Anna told me that he was eager to see me
+before the test started. I felt a lot of responsbilities.
 
 
 11/09/2023
