@@ -122,6 +122,14 @@ before the test started. I felt a lot of responsbilities.
 -----------
 1. I am working on the matrix algebra part of the quaternion, I am
 getting the L(q) and R(q) and skew-symmetric matrix.
+2. Working on foreground service for WearSlog. Got the foreground
+service working and now the sensors' data gets logged into files in
+despite the screen goes off. It works even when I manually lock the
+screen with passcode. Will test it overnight to see how the logging
+data looks like. I will version it WearSlog v1.1. 
+3. WZ turned 13. I bought a macbook air M2 for him. He should start
+programming sooner or later.
+
 
 
 
