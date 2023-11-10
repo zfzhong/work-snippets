@@ -131,7 +131,14 @@ data looks like. I will version it WearSlog v1.1.
 programming sooner or later.
 
 
+11/10/2023
+-----------
+1. Test WearSlog v1.1 for several trials: 1) The watch got unlocked
+somehow (I had passcode set) ... strange; 2) Only heart rate sensor
+was working; 3) Set foreground service when click; 4) Enabled 3
+sensors and test again.
 
+2. 
 
 * Reminder:
   1. robotics presentation review
