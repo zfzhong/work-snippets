@@ -138,7 +138,14 @@ somehow (I had passcode set) ... strange; 2) Only heart rate sensor
 was working; 3) Set foreground service when click; 4) Enabled 3
 sensors and test again.
 
-2. 
+
+11/12/2023
+-----------
+1. Now I realized that the 'cross product' only applies to vectors in
+R3 and R7. I thought it was a general operation for vectors in linear
+algebra, but it turned out not. And I realized that Hamilton defined
+it for quaternion. A good discussion for the cross product for R3 and
+R7 is in this paper[9] published in 1983.
 
 * Reminder:
   1. robotics presentation review
@@ -170,3 +177,7 @@ https://math.ucr.edu/home/baez/octonions/conway_smith/
 8. "Computer-Aided Analysis of Mechanical Systems" by P. E. Nikravesh
 https://www.u.arizona.edu/~pen/ame553/Hallway/CAAMS/CAAMS_06.pdf
 https://www.u.arizona.edu/~pen/ame553/ (full book)
+
+9. W. S. Massey, "Cross Products of Vectors in Higher Dimensional
+Euclidean Spaces",The American Mathematical Monthly , Dec., 1983,
+Vol. 90, No. 10 (Dec., 1983) pp. 697-701 
