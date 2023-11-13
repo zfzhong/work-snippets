@@ -147,6 +147,14 @@ algebra, but it turned out not. And I realized that Hamilton defined
 it for quaternion. A good discussion for the cross product for R3 and
 R7 is in this paper[9] published in 1983.
 
+11/13/2023
+-----------
+1. Spent whole day working on FAB-MAP slides. Finished the
+presentation in afternoon's class.
+2. Titon rewired raspberry pi 4 for both Top and Fish to connect
+battery. I built py_pubsub successfully on the Fish. Will configure it
+for IMU/GPS/DepthSensor tonight.
+
 * Reminder:
   1. robotics presentation review
   2. Robotics presentation (nov 13)
