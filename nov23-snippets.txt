@@ -154,6 +154,8 @@ presentation in afternoon's class.
 2. Titon rewired raspberry pi 4 for both Top and Fish to connect
 battery. I built py_pubsub successfully on the Fish. Will configure it
 for IMU/GPS/DepthSensor tonight.
+3. Spent 2 hours to setup I2C interfacing for the Fish, and documented
+it. 
 
 * Reminder:
   1. robotics presentation review
