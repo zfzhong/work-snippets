@@ -157,6 +157,17 @@ for IMU/GPS/DepthSensor tonight.
 3. Spent 2 hours to setup I2C interfacing for the Fish, and documented
 it. 
 
+11/14/2023
+-----------
+1. This morning I was attracted by some piano playing videos on
+youtube. One artist said: "I can bear your errors, but I cann't bear
+you blunt strokes". I realized that even I also consider computer
+science as an art, but I can't remember my keyboard layout exactly. I
+should have more emotional touch with my keyboard as well. And I
+probably should draw my keyboard layout so that I know where a
+specific key resides exactly.
+
+
 * Reminder:
   1. robotics presentation review
   2. Robotics presentation (nov 13)
