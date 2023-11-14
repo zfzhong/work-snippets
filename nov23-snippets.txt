@@ -165,7 +165,8 @@ you blunt strokes". I realized that even I also consider computer
 science as an art, but I can't remember my keyboard layout exactly. I
 should have more emotional touch with my keyboard as well. And I
 probably should draw my keyboard layout so that I know where a
-specific key resides exactly.
+specific key resides exactly. I will put my drawing in this repo:
+https://github.com/zfzhong/heartfelt-strokes 
 
 
 * Reminder:
