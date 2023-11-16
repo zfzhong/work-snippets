@@ -219,8 +219,10 @@ discuss about the work that I plan to do and ask for suggestions.
    - data processing logic on the server
    - server webpage for pixel
    - app on samsung watch
-   
-
+3. Meeting with exerciese folks. Glenn wanted me to implement the UI
+for configuring prameters before handling the google pixel watches to
+olivia to test. He wanted me to focus on Google pixel watches (dont
+touch Samsung watches).
 
 * Reminder:
   1. robotics presentation review
