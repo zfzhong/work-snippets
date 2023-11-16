@@ -190,6 +190,38 @@ with one apparently being guessed right. This year he got 6 out 8.
 my laptop. Got the ad-hoc network working, still need to configure it
 so that wlan0 becomes the ad-hoc wireless interface at boot.
 
+11/16/2023
+-----------
+1. Yesterday Srihari told me that I didn't introduce my work clearly
+or logically during the robotics group meeting. He wanted me to
+introduce my work as if I have slides in front me: 1) what we had done
+before, 2) what I did in the past week, and 3) what am I going to do
+for next week. I generally agree and I hope to improve my presentation
+by stating things in an organized way. This means that I should treat
+every meeting seriously by preparing myself for the meeting, instead
+of just presenting myself and don't know what the two or three things
+that should to be shouted out.
+2. So I am preparing my slides for the meeting in the afternoon. I
+should recap the funcationality and limitations of WearSlog v1.0, and
+then present WearSlog v1.1 with its new functionality, and finally
+discuss about the work that I plan to do and ask for suggestions.
+1) WearSlog v1.0: logging data with screen on;
+   functionality: continous logging, uploading to server;
+   limitations: screen on; battery issue; unintentional interruption;
+2) WearSlog v1.1: logging data in background with screen locked;
+   advantage: screen off; save battery (last more than 12 hours); lock
+   screen so that no unexpected interruptions;
+   limitation: configration parameters not possible;
+3) next step:
+   WearSlog v1.2:
+   - create configration interface to input parameters (device name,
+   activity, etc)
+   - data processing logic on the server
+   - server webpage for pixel
+   - app on samsung watch
+   
+
+
 * Reminder:
   1. robotics presentation review
   2. robotics assignment 2 (calibration of camera, due nov 15)
