@@ -166,13 +166,33 @@ science as an art, but I can't remember my keyboard layout exactly. I
 should have more emotional touch with my keyboard as well. And I
 probably should draw my keyboard layout so that I know where a
 specific key resides exactly. I will put my drawing in this repo:
-https://github.com/zfzhong/heartfelt-strokes 
+https://github.com/zfzhong/heartfelt-strokes
 
+2. Spent the night setting up Raspberry Pi for the Top. Installed
+ROS2, imu, and GPS.
+
+3. I found the original quote:
+"To play a wrong note is insignificant; to play without passion is
+inexcusable. -- Ludwig van beethoven. "
+I realized that this is generally true for many work, includding
+playing basketball. If you shoot every ball with soul, trying not to
+bet on luck, you should make significant difference over time. This
+all come to the rationale that you should work on things that you have
+passion to. The passion will lead you wherever you should be.
+
+11/15/2023
+-----------
+1. WZ got 61.5 out of AMC10, the same score as last year. The better
+thing was that he told me that he had more confident in the 8
+problems. He worked on 12 problems last year, and made 7 out of 12,
+with one apparently being guessed right. This year he got 6 out 8.
+2. Spent whole day setting up ad-hoc network between raspberry pi and
+my laptop. Got the ad-hoc network working, still need to configure it
+so that wlan0 becomes the ad-hoc wireless interface at boot.
 
 * Reminder:
   1. robotics presentation review
-  2. Robotics presentation (nov 13)
-  3. robotics assignment 2 (calibration of camera, due nov 15)
+  2. robotics assignment 2 (calibration of camera, due nov 15)
   
 * References:
 1. "Indirect Kalman Filter for 3D Attitude Estimation",
