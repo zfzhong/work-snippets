@@ -224,6 +224,25 @@ for configuring prameters before handling the google pixel watches to
 olivia to test. He wanted me to focus on Google pixel watches (dont
 touch Samsung watches).
 
+11/17/2023
+--------------
+1. I spent about 8 hours working on setup Ad-hoc network on raspberry
+pi 4 (ubuntu 22.04). I got it working but not able to get DHCP service
+running after my ad-hoc-wlan0.service. The DHCP service was kickec off
+soon after the ad-hoc-wlan0.service started (not finished). At around
+1:30am, the raspberry pi refused to restart and I gave up.
+2. Today I realized the SD card of raspberry pi was damaged and I have
+to reflash another SD card. I tried to install a network manager to
+configure the wlan0, not successful. Spent several ours on it. The
+system had network-manage-gnome installed and it didn't work well. The
+screen just went black and I lost control. Have to reflash it again.
+3. Glenn was not happy I didn't help with 2637 participant. I decided
+to write some code to help them process the data. Previously I didn't
+realize the raw data was in different format (I thought there's no raw
+data).
+4. Attended seminar and there's an interesting talk on IoTree
+communication. 
+
 * Reminder:
   1. robotics presentation review
   2. robotics assignment 2 (calibration of camera, due nov 15)
