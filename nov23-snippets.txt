@@ -241,7 +241,25 @@ to write some code to help them process the data. Previously I didn't
 realize the raw data was in different format (I thought there's no raw
 data).
 4. Attended seminar and there's an interesting talk on IoTree
-communication. 
+communication.
+
+11/19/2023
+----------
+1. Spent quite some time to understand ubuntu systemd, netplan,
+wpa_supplicant, dhcpcd, dhcpd, etc. The netplan is not able to
+configure wlan0 to ad hoc mode -- which is the job of iwconfig or
+wpa_supplicant. So, to bring up an ad-hoc access point upon booting,
+we have to set wpa_supplicant configuration for the purpose.
+2. Got ad-hoc access point setup at boot for the raspberry
+pi. Troubleshooting tools and understanding underlying logic is the
+key.
+
+11/20/2023
+-----------
+1. Installed ROS2 and trying to setup GPS, which for some reason is
+not working. No fix.
+2. After trying different things, I concluded that the gps is
+damaged. I ordered a new one.
 
 * Reminder:
   1. robotics presentation review
