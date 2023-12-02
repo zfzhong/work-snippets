@@ -1,0 +1,88 @@
+Deraming, Intelligence, and Generating Math Problems
+
+Yesterday I woke up from dreaming and I started to think how my brain
+works.
+
+In my dream I met some people in my hometwon and they were about to go
+fishing somewhere. I requested to join them. They generally agreed and
+then asked me to buy a big umbrella so that we can shelter the sun
+while fishing. I happily agreed, since buying an umbrealla won't cost
+much and the experience of going fishing with them would be valuable
+for me.
+
+When I woke up, I realized that in reality these people I met in my
+dream never go fishing. But the action that they asked me for buying
+an umbrella in exchange of taking me to fishing is what usually happen
+in real life. It is like that my brain had a story about me going
+fishing with a group of people and being asked to buy an unbrella, but
+the brain projected this story to a group of people who don't really
+fish in real life. This projection seems quite reasonable on its major
+plot (buying an umbrella in exchange of fishing opportunity), despite
+the minor defect (these people don't fish in real life). 
+
+It seems that the brain keeps the underlying logic of a story, and
+later projects that logic to a group of charaters to generate the
+actual scenes. That underlying logic is the summary of features/logics
+of scenes I experienced in real life. It is natural to conclude that
+intelligence is to summarize/extract logic/features from a wide range
+of data.
+
+Come to the Kaleidoscope project that I am working on, I want to
+create a generic model for a math problem and later generate different
+math problems based on the same model but with different
+parameters. The problem is how to define that generic model. Right now
+I use a table (or called matrix) and projection functions to form this
+model. This works okay.
+
+The key problem is how to summarize a math
+problem into that generic model in a automatical (or efficient) way
+with minimum mannual work. If we can summarize a math problem in to a
+genric model in a autonomous way, and project the model back to many
+different math problem that share the same underlying logic, we then
+achieve some intelligence in math problem creation and solving.
+
+
+* The following is ChatGPT revision of my essay:
+Dreaming, Intelligence, and Generating Math Problems
+
+Upon awakening yesterday, I found myself contemplating the intricacies
+of my brain's functioning. 
+
+In my dream, I encountered individuals in my hometown preparing for a
+fishing trip. Eager to join them, I expressed my interest, and they
+agreed, proposing that I procure a large umbrella for sun protection
+during our fishing expedition. I gladly accepted, recognizing the
+minimal cost involved and the valuable experience of fishing with
+them. 
+
+Upon waking, I realized that the people from my dream were not actual
+fishing enthusiasts in reality. However, the scenario of being asked
+to buy an umbrella in exchange for a fishing opportunity mirrors
+real-life occurrences. It appears that my brain crafted a narrative
+about a fishing excursion with a group and transposed it onto
+individuals who don't actually engage in fishing. This projection
+maintains logical coherence in its central plot (buying an umbrella
+for a fishing opportunity), despite the incongruity in the details
+(these individuals don't fish in real life). 
+
+It seems that the brain retains the underlying logic of a story and
+later projects that logic onto a group of characters to generate
+tangible scenes. This underlying logic serves as a summary of features
+and logics from real-life experiences. It is a natural inference that
+intelligence involves summarizing and extracting logic and features
+from a broad spectrum of data. 
+
+Transitioning to the Kaleidoscope project I am currently engaged in,
+my goal is to create a generic model for a math problem and
+subsequently generate various math problems based on the same model
+but with different parameters. The challenge lies in defining this
+generic model. Currently, I employ a table (or matrix) and projection
+functions to construct the model, and this approach functions
+adequately. 
+
+The crux of the matter is how to autonomously and efficiently
+summarize a math problem into this generic model with minimal manual
+intervention. If we can achieve the autonomous summarization of a math
+problem into a generic model and project the model onto various math
+problems sharing the same underlying logic, we can attain a degree of
+intelligence in both math problem creation and solving.
