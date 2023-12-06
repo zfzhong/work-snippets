@@ -29,3 +29,18 @@ the report tomorrow.
 3. Titon's creation to hold the door lock was not welcomed by some
 people in my lab (and sanjib). I feel these people are just too
 conservative to accept new creations. Sad.
+
+12/05/2023
+----------
+1. Fit Apps complains about status/setting unavailable. No idea what
+cuased this. Somebody posted this problem in the forum 2 years ago,
+nobody gave solid solution. I just reinstalled the app for two watches
+and tested them.
+2. Solved the GPS problem. It's because I connected thse wires wrong
+(following a tutorial where the pictures are not very clear). I
+finally found out all the pictures I took before and followed the
+wiring in the pictures. It worked. I wasted several days on this.
+3. Still need to work on assignment 3 with a ubuntu computer. I didnt
+something yesterday but that's not enough.
+4. Steve asked me about NP/NPC problems. I have to read the textbook
+in order to refresh my mind about these.
