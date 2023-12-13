@@ -44,3 +44,14 @@ wiring in the pictures. It worked. I wasted several days on this.
 something yesterday but that's not enough.
 4. Steve asked me about NP/NPC problems. I have to read the textbook
 in order to refresh my mind about these.
+
+12/12/2023
+------------
+1. Understood how to pass data between parent activity and child
+activity in kotlin. Coded two panels of the WearSlog v4.3 UI. Much
+more time consuming than I expected. Most of them time got wasted on
+UI twisting (lacking of a concrete design).
+2. Ioannis is asking about assign 3. I have to go to school to work on
+it tomorrow. I thought I can work on it in Feb. I was wrong.
+3. Still need a lake test for the underwater robotics. Need a testing
+plan. 
