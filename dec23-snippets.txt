@@ -54,4 +54,12 @@ UI twisting (lacking of a concrete design).
 2. Ioannis is asking about assign 3. I have to go to school to work on
 it tomorrow. I thought I can work on it in Feb. I was wrong.
 3. Still need a lake test for the underwater robotics. Need a testing
-plan. 
+plan.
+
+12/13/2023
+-----------
+1. Spent the whole day working on WearSlog v4.3. Got all panels UI and
+interaction done. found bug in testing. Timezone problem has to be
+fixed tomorrow. The problem is when we configure the app, we configure
+the time in EST. When we pull the system time, it's in GMT. We should
+compare timestamps at the same timezone.
