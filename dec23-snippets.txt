@@ -63,3 +63,4 @@ interaction done. found bug in testing. Timezone problem has to be
 fixed tomorrow. The problem is when we configure the app, we configure
 the time in EST. When we pull the system time, it's in GMT. We should
 compare timestamps at the same timezone.
+2. The app's statuses and state transition should be redesigned.
