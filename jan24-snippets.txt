@@ -7,3 +7,13 @@
 The first one even has a 30-day free training, which sounds interesting. I dont have time to study it now, obviously.
 
 2. Read 3 chapers of the book "Practical Poker Math". Only simple math.
+
+
+01/10
+=======
+1. Not writing snippets for seveal days, coz I felt quite tired in the
+last couple of days. 
+2. Devloped about 5 models for AMC8 2023 problems. Sometimes it took
+me several hours to finish one model, I then doubt AI can develop such
+model intelligently. On another hand, maybe this is exactly the
+opportunity for AI -- to develop model faster than humans.
