@@ -17,3 +17,19 @@ last couple of days.
 me several hours to finish one model, I then doubt AI can develop such
 model intelligently. On another hand, maybe this is exactly the
 opportunity for AI -- to develop model faster than humans.
+
+01/15
+=======
+1. Done most of the models for  AMC8 2023 problems. It's just too time
+consuming to build the models one by one. Again, AI tools might be
+able to extract the variables and components (square, line, angle,
+etc), and I just need to connect these components and specify the
+connection by writing a function for the connection. We might
+introduce the 'input dimensions' which means the different sources of
+input. These different inputs actually control the variation
+scope. When AI identify a component, it also generates the code to
+define that component. 
+
+2. The key problems can AI abstract the math problems into a
+fundamental data structure, for example, a directed graph (or other
+structures). 
