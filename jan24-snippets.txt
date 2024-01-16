@@ -33,3 +33,12 @@ define that component.
 2. The key problems can AI abstract the math problems into a
 fundamental data structure, for example, a directed graph (or other
 structures). 
+
+01/16
+======
+1. Started to workon USBL since yesterday. Today work continues.
+2. Neither cpgs/gpsmon is working at the beginning. After rebooting
+the top, it started to work.
+3. After connecting to 'usbltop' ad-hoc network, ssh to the TOP got
+'connection refused'. Wait for 5 min and reconnect, it worked. If not,
+reboot the TOP and wait for 5 min before reconnect.
