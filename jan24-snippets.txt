@@ -58,3 +58,12 @@ pushed to github. Also included my progress slides in the same github
 respository.
 2. Had the first robotics meeting in the morning 10am. The meeting
 time will be switched to Monday 10am.
+3. Happened to watch Magnus Carlson's youtube video analyzing the Game
+between Elizabeth Harmon and Borgov from the Queen's Gambit. It's
+surprising to me hat Magnus acknowledges that the movie presents many
+game segments that he has never seen before. I come up with the idea
+of discovering/generating game segments (through combinations,
+probably) with AI tools and use it for teaching purpose.
+4. I finished reading the first 3 chapters of the book 'Linear algebra
+done right' and realized that vector is the data structure to store
+information and matrix is just the tool for transforming vectors.
