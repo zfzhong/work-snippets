@@ -42,3 +42,9 @@ the top, it started to work.
 3. After connecting to 'usbltop' ad-hoc network, ssh to the TOP got
 'connection refused'. Wait for 5 min and reconnect, it worked. If not,
 reboot the TOP and wait for 5 min before reconnect.
+4. Fish connects to Top's ad-hoc network upon booting. Setting up
+Fish's ad-hoc connection is exactly the same way as setting up Top's
+ad-hoc access point. The key is DO NOT USE NETPLAN. We should build a
+new systemd service to setup the ad-hoc network. Simply follow Top's
+setup procedure documented on github. Wasted me 3-4 hours.
+
