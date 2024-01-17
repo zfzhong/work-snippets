@@ -47,4 +47,6 @@ Fish's ad-hoc connection is exactly the same way as setting up Top's
 ad-hoc access point. The key is DO NOT USE NETPLAN. We should build a
 new systemd service to setup the ad-hoc network. Simply follow Top's
 setup procedure documented on github. Wasted me 3-4 hours.
-
+5. colcon build 'py_usbl_top', 'py_usbl_fish', and 'usbl_interfaces'
+in the working director of Top. Will move 'py_usbl_fish' to the Fish's
+working directory and build again.
