@@ -50,3 +50,11 @@ setup procedure documented on github. Wasted me 3-4 hours.
 5. colcon build 'py_usbl_top', 'py_usbl_fish', and 'usbl_interfaces'
 in the working director of Top. Will move 'py_usbl_fish' to the Fish's
 working directory and build again.
+
+01/17
+======
+1. Wrote the steps to configure joining ad-hoc network in doc and
+pushed to github. Also included my progress slides in the same github
+respository.
+2. Had the first robotics meeting in the morning 10am. The meeting
+time will be switched to Monday 10am.
