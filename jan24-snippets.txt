@@ -67,3 +67,10 @@ probably) with AI tools and use it for teaching purpose.
 4. I finished reading the first 3 chapters of the book 'Linear algebra
 done right' and realized that vector is the data structure to store
 information and matrix is just the tool for transforming vectors.
+
+
+01/23
+======
+1. Fixed most of bugs that the current WearSlog v1.4 has. Tested.
+2. Redesigned the state transition diagram. Will implement Slogger
+v1.5 based this design.
