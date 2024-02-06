@@ -136,3 +136,28 @@ these two kinds of curves, and that should be good enough to draw any
 artwork. Certainly, the tool should also support a line defined by two
 points. So totally three fundamental elements: line, cubic spine
 curve, and arc (defined by 3 points).
+
+
+02/05/2024
+======
+1. Last night I found that the GPS serial communication on Raspberry
+Pi 4 is different than that of Raspberry Pi 3. First, we need to use
+raspi-config to disable the login via serial; Second, we have to add
+'dtoverlay=disable-bt' to disable bluetooth. Then the GPS signal will
+be avaiable through /dev/ttyAMA0, which is linked to /dev/serial0. Our
+code or gpsd should all get data from /dev/serial0.
+
+2. Today I setup the GPS/GPSD/chrony on the Top, and setup the ad-hoc
+network on the Top. The fish can connect to the ad-hoc network upon
+successful booting. The Top adjust the system time using the GPS time
+about 2 minutes after succesful booting (make sure GPS has fix).
+
+3. Tomorrow I will 1) setup the chrony on the Fish to sync with the
+Top via the ad-hoc network. So the Fish would have correct system time
+before it goes to the water; 2) do air test to investigate how long
+the sync packet timestamp will be lagging behind the correct system
+time.
+
+4. Try to setup a script to launch all ros nodes upon (re)booting.
+
+
