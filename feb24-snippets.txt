@@ -161,3 +161,13 @@ time.
 4. Try to setup a script to launch all ros nodes upon (re)booting.
 
 
+02/08/2024
+======
+1. It turned out the Slogger v1.5 has a bug: the timer was not working
+when the watch went into sleep mode. I have restructred the code to
+use AlarmManager + ForegroundService to make it work. And this should
+be the right way to do it. So, developing an App to collect sensor
+data in background is not easy. But the experience is good through.
+
+2. On Tuesday I already make the Fish sync with Top via the ad-hoc
+network. The Top's chrony is just a source of the Fish's chrony.
