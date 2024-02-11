@@ -192,3 +192,12 @@ files indicated large spare time intervals in which no accel data was
 recorded. When I checked the accel log, I found there was a huge
 timestamp gaps (about 30 minutes) in one file one log entry and its
 next entry.
+
+2. Finished the first version of GeoSketch (v1.0). Thie version we can
+draw simple quadratic bezier curve and generate corresponding
+Asymptote code. It's pretty nice. We still need to implement the
+'Selection', 'reflection', 'move' functionalities. Basically, if we
+move a point, the curve should adjust itself. We can select a group of
+three points and generate a bezier curve. Basically, it's good if we
+can have functionalities ready to draw the bunny for AMC8 2024 P13.
+
