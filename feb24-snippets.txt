@@ -173,3 +173,22 @@ manifest.xml file, otherwise the receiver won't receive any alarms.
 
 2. On Tuesday I already make the Fish sync with Top via the ad-hoc
 network. The Top's chrony is just a source of the Fish's chrony.
+
+
+02/10/2024
+======
+1. Use setExactAndAllowWhileIdle(), not sure it will fire the Alarm at
+exact time. The loadConfigParams() should be optimized (right now
+there is redundency). DebuggLogger is in place.
+
+02/11/2024
+======
+1. Using setExactAndAllowWhileIdle(), I set the Slogger to start at
+3:00am and end at 6:00am and put the watch on my desk. I checked the
+log this morning, the StateReceiver got notified at exactly 3:00am and
+6:00am. However, the heartrate log file is empty, which means the
+heart rate sensor was not working (as expected), and the accel log
+files indicated large spare time intervals in which no accel data was
+recorded. When I checked the accel log, I found there was a huge
+timestamp gaps (about 30 minutes) in one file one log entry and its
+next entry.
