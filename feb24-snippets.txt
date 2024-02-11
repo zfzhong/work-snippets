@@ -201,3 +201,4 @@ move a point, the curve should adjust itself. We can select a group of
 three points and generate a bezier curve. Basically, it's good if we
 can have functionalities ready to draw the bunny for AMC8 2024 P13.
 
+3. Paid $20 to upgrade chat-gpt.
