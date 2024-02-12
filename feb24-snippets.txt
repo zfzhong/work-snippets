@@ -211,3 +211,11 @@ Slogger to start at 17:00 and to end at 19:30, and it turned out that
 it started at 17:17 and stopped the moment when I checked the watch
 (before I went to check the watch, it was left on the desk).
 
+02/12/2024
+======
+1. I have a Pixel 2 watch sitting on my desk overnight and this
+morning I weared it around 8:00 all the time till 9:30. I took it off
+at 9:30 and put it on desk again. I forgot what times I configured it
+for the start/end time. I will wait till the the logging was done.
+
+
