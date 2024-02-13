@@ -229,4 +229,4 @@ it log continously.
 about 11:10. So I guess it had been logging for 10 hours with 95%
 battery. I checked the Pixel two watch at 21:25, and the battery was
 still 98%. This meant that it didn't consume much battery since
-18:07. 
+18:07. I checked the Pixel two watch at 23:48, and it has 95% battery. 
