@@ -230,3 +230,8 @@ about 11:10. So I guess it had been logging for 10 hours with 95%
 battery. I checked the Pixel two watch at 21:25, and the battery was
 still 98%. This meant that it didn't consume much battery since
 18:07. I checked the Pixel two watch at 23:48, and it has 95% battery. 
+5. Significant progress with GeoSketch: we can adjust curves or arcs
+now. Tomrrow we need to work on 1) generating asy code for an Arc
+object; 2) when delete a point, its associated curve or arc should
+also be deleted (only two other points left); 3) fill color into a
+Cycle object. 
