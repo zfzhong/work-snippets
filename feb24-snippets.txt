@@ -235,3 +235,19 @@ now. Tomrrow we need to work on 1) generating asy code for an Arc
 object; 2) when delete a point, its associated curve or arc should
 also be deleted (only two other points left); 3) fill color into a
 Cycle object. 
+
+
+02/13/2024
+======
+1. Pixel 2 watch died around 9:40. So basically it didn't last for 10
+hours.
+2. For GeoSketch (v1.1), I had code generated for the Arc class. I
+added an OvalCurve class, but still need work resizing the OvalCurve
+and what to fill (one idea is to indicate the fill color under the
+'create oval' button: button+color should be together). This should
+require functionality of picking color for filling the oval. 
+3. I started to realize that cubic bezier curve might be the a better
+solution to drawing artwork, because you simple connect dots and adjust
+their positions and that might result the artwork you want. This would
+be much simpler than creating a 3-dot quadratic beizer curve and
+connecting them together. I plan to implement this in GeoSketch v2.0.
