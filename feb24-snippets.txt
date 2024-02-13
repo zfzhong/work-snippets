@@ -245,7 +245,8 @@ hours.
 added an OvalCurve class, but still need work resizing the OvalCurve
 and what to fill (one idea is to indicate the fill color under the
 'create oval' button: button+color should be together). This should
-require functionality of picking color for filling the oval. 
+require functionality of picking color for filling the oval. Besides,
+I also need to work on generating asy code for the ovalcurve. 
 3. I started to realize that cubic bezier curve might be the a better
 solution to drawing artwork, because you simple connect dots and adjust
 their positions and that might result the artwork you want. This would
