@@ -216,6 +216,17 @@ it started at 17:17 and stopped the moment when I checked the watch
 1. I have a Pixel 2 watch sitting on my desk overnight and this
 morning I weared it around 8:00 all the time till 9:30. I took it off
 at 9:30 and put it on desk again. I forgot what times I configured it
-for the start/end time. I will wait till the the logging was done.
-
-
+for the start/end time. I will wait till the the logging was done. I
+again weared the watch at 10:40.
+2. Bought 5 books of the Computers & Typesetting set. Found this
+interesting website: https://shreevatsa.net/tex/program
+3. Test Pixel one to see how many hours it can log continously. At
+18:07pm, I configured the Pixel two watch to start on 23:59 tonight
+and end at tomorrow 23:59pm. We want to check at 23:59 tonight to see
+how much battery got consumed. We also want to know how many hours can
+it log continously.
+4. The Pixel one watch died at 21:20. I believe I started logging at
+about 11:10. So I guess it had been logging for 10 hours with 95%
+battery. I checked the Pixel two watch at 21:25, and the battery was
+still 98%. This meant that it didn't consume much battery since
+18:07. 
