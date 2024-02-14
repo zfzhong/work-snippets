@@ -252,3 +252,14 @@ solution to drawing artwork, because you simple connect dots and adjust
 their positions and that might result the artwork you want. This would
 be much simpler than creating a 3-dot quadratic beizer curve and
 connecting them together. I plan to implement this in GeoSketch v2.0.
+4.Another idea is to make the GeoSketch an Ipad App, user can use
+apple pen to draw artwork. We can also introduce machine learning
+algorithm to help. For example, use can draw multiple curves at around
+a certain location (start/end at similar locations), the machine
+learning algorithm can then generate a single curve (maybe combined all
+nearby curves) to best fit the scene.
+5. Redsigned the OvalCurve class. Finished rotation wrt to one of the
+border points. Bounding box algorithm should be discarded and
+redesigned. 
+6. The states, transition, and update() functions should be completely
+redesigned.  
