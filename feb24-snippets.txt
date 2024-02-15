@@ -263,3 +263,14 @@ border points. Bounding box algorithm should be discarded and
 redesigned. 
 6. The states, transition, and update() functions should be completely
 redesigned.  
+
+02/14/2024
+======
+1. Oval generates asy code, and rotation, drag movement all done. I
+completed my first artwork with GeoSketch.
+2. When incorperate the first artwork 'A Bunny' into LaTeX, I realized
+that the coordinates didn't get normalized wrt to the origin
+(0,0). Basically the bottom-left corner of the bunny starts from
+coordinate around (200,200). When we export the code, it's good to
+'normalize' the coordinates: the bottom-left corner of the artwork
+should have coordinate (0,0).
