@@ -274,3 +274,5 @@ that the coordinates didn't get normalized wrt to the origin
 coordinate around (200,200). When we export the code, it's good to
 'normalize' the coordinates: the bottom-left corner of the artwork
 should have coordinate (0,0).
+3. USBL_TOP tested working alone. Will test Fish tomorrow morning
+before going to the lake. Will do a full air test before going.
