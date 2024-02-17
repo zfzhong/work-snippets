@@ -276,3 +276,32 @@ coordinate around (200,200). When we export the code, it's good to
 should have coordinate (0,0).
 3. USBL_TOP tested working alone. Will test Fish tomorrow morning
 before going to the lake. Will do a full air test before going.
+4. It would be great if we have a raw data format for the drawing we
+did in GoeSketch, and whenever we load this raw data format, the
+figure will be restored in the GeoSketch canvas.
+
+02/15/2004
+======
+1. Purchased the http://geosketch.art domain for our GeoSketch
+software. The plan is Tina will operate this site and post all her
+artwork there. One project is to re-draw all the AMC8 problem
+illustrations (if they have not been drawn in code yet).
+
+02/16/2004
+======
+1. Spent the whole morning to prepare the robotics lake test. I
+realized that last Sunday I dropped the Fish to the water without the
+cap and water came into the tube. Fortunately I didnt do much test on
+that day. Today I have to clean the tube and dry the wires.
+2. Went to the lake around 12:10pm. William and Anna helped a lot with
+the boat and everything. Testing indicated my simple singla adjustment
+algorithm didn't work. Will work on it tonight. Basically, the Top
+should confirm that the Fish already changed the signal level before
+it takes further actions.
+3. Pixel 2 devices (4,5) are installed with the latest Slogger
+v1.5.5. Figured out how to version App. 
+4. Fixed flash LED on the Fish. Build the py_msg_process package for
+the Top. Set the Fish SRCLEVEL control value to 1 when start the
+Fish (solve the src level problem). Add distance info into the sync
+data packet.
+
