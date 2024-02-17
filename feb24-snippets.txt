@@ -280,14 +280,14 @@ before going to the lake. Will do a full air test before going.
 did in GoeSketch, and whenever we load this raw data format, the
 figure will be restored in the GeoSketch canvas.
 
-02/15/2004
+02/15/2024
 ======
 1. Purchased the http://geosketch.art domain for our GeoSketch
 software. The plan is Tina will operate this site and post all her
 artwork there. One project is to re-draw all the AMC8 problem
 illustrations (if they have not been drawn in code yet).
 
-02/16/2004
+02/16/2024
 ======
 1. Spent the whole morning to prepare the robotics lake test. I
 realized that last Sunday I dropped the Fish to the water without the
@@ -304,4 +304,19 @@ v1.5.5. Figured out how to version App.
 the Top. Set the Fish SRCLEVEL control value to 1 when start the
 Fish (solve the src level problem). Add distance info into the sync
 data packet.
+
+02/17/2024
+======
+1. Added 'deleting' mode to GeoSketch. The app states should be
+completely redesigned. Initially, I thought there were only two
+states: creating and connecting. Now, we definitely should have
+'deleting' and 'creating oval'. So the modes might be: 'creating
+points', 'creating curves', 'creating oval', and 'deleting'. Creating
+curve is a bit complicated, because we have to create points before we
+create curves. In general, we have think carefully and redesign the
+app. Also, in deleting mode, deleting a point will also delete the curve
+associated with the point, but deleting a curve won't affects the
+points associated with it. Every element have many different internal
+states as well: normal, selected, hidden, deleted, etc. It's not easy
+to develop a good drawing app.
 
