@@ -320,3 +320,11 @@ points associated with it. Every element have many different internal
 states as well: normal, selected, hidden, deleted, etc. It's not easy
 to develop a good drawing app.
 
+02/20/2024
+======
+1. Got the correct state transtion for GeoSketch elements. Diagram
+drawn in the documentation. I wasn't quite right at the beginning. The
+code should be changed based on the new state transition diagram. It's
+really a good practice to follow the state transition to code it
+right. Without the state transition diagram, it's easy to get it wrong
+and unnoticed.
