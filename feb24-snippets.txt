@@ -328,3 +328,5 @@ code should be changed based on the new state transition diagram. It's
 really a good practice to follow the state transition to code it
 right. Without the state transition diagram, it's easy to get it wrong
 and unnoticed.
+2. Advanced Slogger version to 1.5.6. Fixed the reference timestamp
+issue caused by heart rate sensor reporting dummy data. 
