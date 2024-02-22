@@ -330,3 +330,9 @@ right. Without the state transition diagram, it's easy to get it wrong
 and unnoticed.
 2. Advanced Slogger version to 1.5.6. Fixed the reference timestamp
 issue caused by heart rate sensor reporting dummy data. 
+
+02/21/2024
+======
+1. Spent the whole afternoon for lake tests to investigate RSSI vs
+distance for source levels: 3, 2, and 1.
+2. Sent three pixel watches to Glenn's team in the morning.
