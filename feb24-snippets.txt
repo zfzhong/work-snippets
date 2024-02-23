@@ -336,3 +336,33 @@ issue caused by heart rate sensor reporting dummy data.
 1. Spent the whole afternoon for lake tests to investigate RSSI vs
 distance for source levels: 3, 2, and 1.
 2. Sent three pixel watches to Glenn's team in the morning.
+
+02/23/2024
+======
+1. Did experiments to investigate the behaviors of heart rate sensor
+and motion sensor (offbody detection).
+
+* Experiment data: Pix09-sleep-1708711799614
+  PresenceFile: Pix09_sleep_Presence_1_1_1708711799614_1708711799743.csv
+
+* Experiment configuration:
+13:10 -> start logging
+13:11 -> wear watch
+13:14 -> take watch off
+13:17 -> wear watch again
+13:20 -> end logging
+
+* Observations:
+a) During 13:14 - 13:17, the heart rate sensor reported 0. This means
+we should not igonore 0 readings from the heart rate sensor.
+b) Since nobody weared the watch when the logging started, both heart
+rate sensor and the motion sensor reported dummy data with 'random'
+timestamp (not the timestamp when the logging started). 
+c) The offbody detection caught the time for the transitions when the
+watch was on/off body. 
+
+* Conclusions:
+a) We should use the accelerometer's timestamp as reference to
+calculate the timestamps for hear rate sensor readings.
+b) Don't discard 0 readings from the heart rate sensor.
+
