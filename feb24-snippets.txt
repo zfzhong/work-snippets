@@ -366,3 +366,9 @@ a) We should use the accelerometer's timestamp as reference to
 calculate the timestamps for hear rate sensor readings.
 b) Don't discard 0 readings from the heart rate sensor.
 
+
+02/28/2024
+======
+1. Work on Slogger v1.6.0: recyclerview list + delete files. Did part
+of the recyclerview list work.
+2. Work on research core poster abstract.
