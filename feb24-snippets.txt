@@ -367,8 +367,29 @@ calculate the timestamps for hear rate sensor readings.
 b) Don't discard 0 readings from the heart rate sensor.
 
 
-02/28/2024
+02/26/2024
 ======
+1. Robotics meeting:
+a) Ioannis said that in my experiments the Top was above shallow
+water, so for my next experiments I should move the Top to deep water
+far from the shore.
+b) Ioannis wants the Top-Fish GPS distance displayed on the graph as
+well.
+c) Ioannis wants the Fish's depth and water temperature displayed on
+the graph as well.
+d) He also wants a horizontal line at -65dBm displayed on the graph.
+e) He didn't agree with me about the sync time difference (1-8 sec),
+he thought there must be something not right in my implementation. I
+found that we probably should use IMS (not IM) to send the sync packet.
+
+* Todo:
+1) I have to identify what data I should collect from the Fish or the
+Top for my experiments (Fish depth, water temperature, Fish gps, Fish
+IMS received time, Top GPS, USBL reported distance, Top IMS time)
+2) At the TOP side, should emit the GPS data to a ROS2 topic.
+
+02/28/2024
+=====
 1. Work on Slogger v1.6.0: recyclerview list + delete files. Did part
 of the recyclerview list work.
 2. Work on research core poster abstract.
