@@ -1,0 +1,17 @@
+03/04
+======
+1. Consolidated Fish depth, Fish GPS, Top GPS, rssi, USBL reported
+distance into a single plot.
+2. Need to work on TOP GPS Node to dump data into a topic; and test.
+3. Need to work on IMS for sync packet and do air test.
+4. Need to schedule Lake test (deep water for Top); designed tests:
+a) Test1: Vary fish's depth and compare real depth and reported
+distance. In this experiment, Top and Fish should locate at the same
+spot on the lake, while Fish vertically drop to the deep water and
+move back.
+b) Fix the Top above deep water (with anchor in the lake), and
+navigate the Fish away from the Top.
+c) Definitely need fish finder to scan the bottom of the lake to avoid
+obstacles (so that the Fish won't be tangled).
+
+5. Need to work on web server to plot heart rate.
