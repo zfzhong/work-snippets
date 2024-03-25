@@ -15,3 +15,93 @@ c) Definitely need fish finder to scan the bottom of the lake to avoid
 obstacles (so that the Fish won't be tangled).
 
 5. Need to work on web server to plot heart rate.
+
+03/24
+======
+1. Start from moring, I tried to process data from field experiment
+(did yesterday), and it took a while to find out that I should
+transfer my data to a linux machine to process it, since my Mac
+doesn't have ROS2 installed.
+
+2. Phone conversation is meant for quick update
+
+I called Srihari to chat a bit before the robotics group meeting at
+10:00, since he instructed me to call him before the meeting. I meant
+to have a quick conversation, in case he has some `special' instructions
+for me bofore I went on to report my progress during the meeting. He
+started to ask detail things. At one point he asked my why I bought a
+parallel desktop (software) to install Linux instead of using the
+linux machines in our department. I reponsed that the department linux
+machines are not accessible from outside. He said that shouldn't be
+the case coz somebody else have been using some of these department
+machines from another university. I then told him that I asked around
+and didn't make it successful. He said Hongpeng should be using the
+department machine and why I didn't ask Hongpeng. I responed that
+Hongpeng was not in my lab and I asked the guys in my lab. For
+example, I asked Zhuangzhuang and he suggested a way which didn't work
+for me becauze Zhuangzhuang is living on campus. We spent about 5
+minutes talking about it while I realized that I wouldn't have time to
+complete drawing some plots before the meeting. I was a bit unpleasant
+in speaking about the issue.
+
+I then had to change my plan. I thought I at least should finish my
+slides. I didn't have time. During the meeting, I showed no data or
+plots, I just reported what I have done and showed the pictures that I
+took when I was doing the experiments on the lake.
+
+
+I asked myself why I was unpleasant. I told my wife that this was not
+the first time. I was unplesant on Saturday when Srihari were checking
+my code during a online meeting, which went on for more than 1 hour
+while I expected it only lasting for at most 30 min. I had a math
+class schedule at 8:00pm and we finished the meeting around 8:30pm. I
+had to cancel my math teaching.
+
+The answer was that things went out-of-expectation. For example, I
+expected the Saturday's meeting to be short, Srihari prolonged it. My
+schedule to to teach class at 8:00pm. When he asked me to have a phone
+called at 6:47pm, I never expected the meeting to last till
+8:30pm. When he asked me about using the department linux machines, I
+tried to quickly respond him with casual answer and expect to move to
+our next more meaningful topic. Unfortunately, he caught that my
+reponse was not correct -- how could it be that "these machinese are
+not accessible from outside", since he clearly knew somebody is using
+these machines from outside.
+
+I wasn't not so serious about my response. And at the point, when he
+questioned me, I didn't think carefully and just stated causually
+that it didn't work for me. Again, I was in the mode of giving an
+casual answer and moving on. That's a huge mistake.
+
+The real reason that I didn't use the department machines was that
+these machines were not installed with ROS2, and we are not allowed to
+freely install software on these machines. For installing ROS2, we
+need Ubuntu 22 system, and these machines are mostly operating system
+Ubuntu 20 (or 18). When I took the robotics class, everybody tried to
+use the department machine, and later realized it's better to use
+their own computer since the department machines inccur too many
+restrictions to work with ease. We tried very hard to use the
+department machine and they failed us. But it's not the department's
+fault, it's the technology we need is too advanced.
+
+Anyways, my reflection is don't going into details during a phone
+conversation if it's not 100% necessary. Just schedule another meeting
+to discuss details.
+
+"Hi Srihari, I am calling you to give a quick update. We can schedule a
+meeting to discuss the details. If you ask me details now, I might not be
+able to have the accurate answer for you. btw, my wife is waiting for me
+to help the kids with homework." 
+
+That's all.
+
+
+
+
+
+
+
+
+
+
+
