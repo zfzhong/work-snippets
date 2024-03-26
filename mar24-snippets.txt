@@ -96,10 +96,29 @@ to help the kids with homework."
 That's all.
 
 
+03/26
+======
+1. Todo list for this week:
+- Tue:  1. Meeting with Glenn in the morning;
+  	2. Testing robotics (validating depth sensor, at lease one location)
+	   * should carefully design the experiment.
+	   * mark the rope first.
+
+- Wed: 1. Working with Sanaina on processing data
+       2. Modifying slogger code to test batching (size 1500, wakeup sensor) 
+
+- Thu: 1. Testing slogger (size 3000)
+       2. Meeting with Glenn
+  
+- Fri: 1. Work on robotics synchronization
+       2. Testing robotics on lake (validate depth sensor, test rssi vs distance)
+
+- Sat: 1. Processing robotics data and generate plots
+       2. Write documentation for robotics data processing 
 
 
-
-
+- Sun: 1. Rest and teaching
+       2. write documentation or coding
 
 
 
