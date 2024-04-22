@@ -19,4 +19,6 @@ robotics:
   b) The TOP ros bag didnt record topic "USBL_Raw", the FISH ros bag
   didn't record "depth_sensing". Should write a script to handle the
   recording, instead of mannually type commands.
-
+  c) when we pull the fish up from deep water, we pull it too fast and
+  the rope squeezed the tube, sucking water inside to the tube. We
+  should not tie the rope to the tube, we should tie it to the frame.
