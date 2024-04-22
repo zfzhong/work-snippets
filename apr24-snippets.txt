@@ -1,0 +1,22 @@
+04/05
+======
+1. I moved all USBL devices to Ioannis' lab, hoping that he or someone
+from the lab would help fix the washers. I was told that 'the washers
+are too small and you can buy some larger ones at the ACE Hardware'. I
+realized that I should take care of the problem by myself (instead of
+waiting for someone to help). So I drove to the nearest ACE hardware
+store and bought some larger washers. I actually took multiple washers
+out of the store and tried them on the USBL device before I decided
+which ones to buy. Anway, I am going to fix the washer problem today.
+
+
+04/22
+======
+1. For last Friday's lake experiments, I had the following issues with
+robotics:
+  a) the TOP stopped working or reboot when we move it. Should try to
+  replace the wire to see whether it fixes it.
+  b) The TOP ros bag didnt record topic "USBL_Raw", the FISH ros bag
+  didn't record "depth_sensing". Should write a script to handle the
+  recording, instead of mannually type commands.
+
