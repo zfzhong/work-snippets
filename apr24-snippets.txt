@@ -22,3 +22,27 @@ robotics:
   c) when we pull the fish up from deep water, we pull it too fast and
   the rope squeezed the tube, sucking water inside to the tube. We
   should not tie the rope to the tube, we should tie it to the frame.
+
+
+04/30
+======
+1. Artifact review for a Mobisys paper on face recognition using an
+acoustic-based approach. I learned how to use codelab to run python
+code with GPU. I even paid $10 for using the GPU. I should carefully
+review the paper and code to learn signal processing and machine
+learning. 
+
+2. Review an mobicom paper on Double-Sided Two-Way Ranging. Learning
+some fundamentals of the method. I should be able to use this method
+in the underwater communication scenario (I doubt that it's
+implemented in the USBL firmware, I should check the USBL's
+implementation on detecting distance and angle, by triangulation?).
+
+3. Figured out how to scan files with my printer. Basically, we can
+scan to a USB drive.
+
+4. Need to work on installing google play store on the kindle fire
+pad.
+
+5. Finished research background forms for NIW application.
+
