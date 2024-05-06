@@ -1,0 +1,27 @@
+05/01
+======
+1. Went to public health to wear 4 devices for free living test.
+2. Went to Dr. Valtorta for advisement.
+3. Need to finish Qiqi's paper work.
+4. Understand the two-way-ranging paper.
+5. Finish Glenn's work on re-align fitbit data.
+
+05/03
+======
+1. Finished Qiqi's paper work.
+2. Finished NIW research background/review.
+
+05/06
+======
+1. The lake test on 05/05:
+   - the ros2 bag file replay doesn't have /depth_sensing topic, but I
+   did confirmed that the recording subscribed to this topic. Need to
+   do air test to confirm.
+
+2. The FISH stayed in the water for too short period of time, only a
+few packets got transmitted to the TOP. Also, I need to re-tie the
+fish and put more weight on the fish so that the sonar is always
+pointing upright in the water. 
+
+3. Connecting the TOP to internet through hotspot and push data to
+server. 
