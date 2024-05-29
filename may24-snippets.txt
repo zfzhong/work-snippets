@@ -25,3 +25,50 @@ pointing upright in the water.
 
 3. Connecting the TOP to internet through hotspot and push data to
 server. 
+
+05/25
+======
+1. Started to refactor Slogger to have both Wear/Tablet
+version. Compiled first tablet version.
+
+2. Will try to install Google Play Store on the Amazon Fire
+tablet. Done installed google play store on the kindle fire, following
+youtube video: https://www.youtube.com/watch?v=FpTHGI8snt0 
+
+3. Start to work on robotics, make sure we have /depth_sensing
+topic. Need to test it in air.
+
+05/27
+======
+1. Tested using ros2 bag recording /depth_sensing and replay. It worked.
+2. Went to lake murray with Steve, but the recreation area was closed
+because of memorial day traffic. We didn't do test.
+
+05/28
+======
+1. Setup AWS server to accept message sent via hotspot from the lake.
+2. It turned out that TOP/FISH couldn't connect to the hotspot at
+booting, this might be because of the 5G configuraiton of this
+hotspot. I should switch it to 2.4G and try again.
+3. ros2 bag was recording the /depth_sensing properly.
+4. Should write a message_processor for interpreting messages from
+FISH ros2 topics. 
+5. Should have a server that records all messages and plot all curves
+automatically. 
+
+
+05/29
+======
+1. The plot (depth vs time) generated from the TOP's received data
+indicated data loss (or the code 'msg_processor' to recover
+fragmented message is not working properly). But the plot from
+USBLLONG indicated  many messgaes indeed were received. We need to
+thoroughly investigate the msg_processor logic, and scrutinize the
+partial message fragements to see what was happening during the
+message recovering process. This also serves as the first step to
+investigate data loss rate (vs. rssi). From the FISH side we know
+how many data packages were sent, from the TOP side we know how many
+data packages were received (should be correctly received, not because
+of the faults of recovering algorithm).
+
+2. 
