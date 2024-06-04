@@ -1,0 +1,7 @@
+06/04
+======
+1. Paired withings watch with iphone (downloaded withings App).
+2. Setup 'withings.geosketch.art/callback/' as the callback for
+withings developer portal application.
+3. Setup TOP to connect to hotspot (tether24g) at boot. My guess was
+right: it can't connect to tether5g.

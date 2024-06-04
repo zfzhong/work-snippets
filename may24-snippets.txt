@@ -71,4 +71,9 @@ how many data packages were sent, from the TOP side we know how many
 data packages were received (should be correctly received, not because
 of the faults of recovering algorithm).
 
-2. 
+05/30
+======
+1. The book "Understanding Deep Learning" seems to be a must read. The
+github link is: https://udlbook.github.io/udlbook/
+
+2. Need to create a callback url (on aws server) for Withings App.
