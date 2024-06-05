@@ -6,3 +6,14 @@ withings developer portal application.
 3. Setup TOP to connect to hotspot (tether24g) at boot. My guess was
 right: it can't connect to tether5g. Both TOP/FISH connect to tether5g
 at boot. 
+
+06/05
+======
+1. Tested TOP device, the GPS data were sent to server successfully.
+2. Need to work on a source-level-control mechanism.
+3. Titon fixed FISH for me: switch, voltage converter, frame pillar.
+4. Tested, USBLLONG messages were send to the server from TOP.
+5. The GPS messages are too frequent, should not send to the server.
+6. Created SourceLevel model in django on the AWS server. Now we need
+to design how to change robotics' sourcelevel based on the sourcelevel
+configured on the server.
