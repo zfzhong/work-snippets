@@ -17,3 +17,7 @@ at boot.
 6. Created SourceLevel model in django on the AWS server. Now we need
 to design how to change robotics' sourcelevel based on the sourcelevel
 configured on the server.
+
+06/06
+======
+1. Oauth2 done for withings. Need to use code to request access_token.
