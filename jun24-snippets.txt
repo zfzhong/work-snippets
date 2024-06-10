@@ -36,3 +36,9 @@ as 'aws-server'.
 2. Pulling heart/accel data from withings cloud not successful. Need
 more tests. 
 3. Finally got accel data successfully. Heart data still pending.
+
+06/10
+======
+1. Got ECG working: listheart, getheart. It's need to approved before
+we can pull the data.
+2. Need to create a ecg table to store ecg information.
