@@ -35,3 +35,4 @@ as 'aws-server'.
 1. Built django models for withings project: userinfo, device, experiment.
 2. Pulling heart/accel data from withings cloud not successful. Need
 more tests. 
+3. Finally got accel data successfully. Heart data still pending.
