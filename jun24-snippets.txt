@@ -21,3 +21,17 @@ configured on the server.
 06/06
 ======
 1. Oauth2 done for withings. Need to use code to request access_token.
+2. Request access_token done, and got user info via API.
+3. Trouble shooting gunicorn: sudo systemctl status gunicorn`
+4. Need to rename the project and check into github. I can rename it
+as 'aws-server'. 
+
+06/07
+======
+1. Renamed the aws project as 'serveraws' and checked code into github.
+
+06/09
+======
+1. Built django models for withings project: userinfo, device, experiment.
+2. Pulling heart/accel data from withings cloud not successful. Need
+more tests. 
