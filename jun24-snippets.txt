@@ -42,3 +42,35 @@ more tests.
 1. Got ECG working: listheart, getheart. It's need to approved before
 we can pull the data.
 2. Need to create a ecg table to store ecg information.
+
+3. Need to work on adjusting sourceLevel according to the response
+from server. A preliminary design:
+a). When uploading data to the server, the TOP side should include its
+current sourceLevel.
+b) The server compare the TOP's current sourceLevel with the latest
+record of the SourceLevel record on the server.
+c) If the source levels are different, the server will include
+server's sourceLevel to the response.
+d) At the TOP side, when it receives a sourceLevel value from the
+server, it sends a command message to the command topic.
+
+Note: after the first command is sent, it takes a while for the TOP to
+change its sourceLevel. In between, multiple sourceLevel values might
+be sent to the TOP from the server. In this case, the TOP should
+handle duplicated commands well.
+
+06/11
+======
+1. Top source level control were done via the server + commander_control_node.
+2. Lake test showing that controlling source level via server works
+well. However, the RSSI didn't change even though the source level
+were changed from 3 to 1. I thought once the Top changed it's source
+level, the Fish should change it soon as well. We need to investigate:
+how long does it take the Fish to change its source level following
+the change of the Top.
+
+3. We didnt put weight on the Fish. We should put weight on the Fish
+so it will hold upright when we drop it into the water.
+
+4. The top was crashed by probably a jet ski on the lake. The
+electronics were damaged. We need to confirm that the USBL is working.
