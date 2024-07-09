@@ -1,0 +1,10 @@
+07/09
+======
+1. Slogger Tablet config menu partially working. Still need to write
+params to config file and start logging.
+
+2. Write Slogger user manual outline.
+
+3. Figure out how to upload Slogger to google app store.
+
+4. Read the papers sent by Glenn.
