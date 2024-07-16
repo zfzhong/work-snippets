@@ -17,3 +17,4 @@ the kindle fire tablet (also change sloggerlib). This will affect the
 Slogger for Pixel 2 watches. The pixel watch Slogger would have
 different code to work with SDK=31. 
 
+2. Test slogger on Kindle fire OS for 10 min and transferred accel data to server. 
