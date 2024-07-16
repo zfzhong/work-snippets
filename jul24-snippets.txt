@@ -8,3 +8,12 @@ params to config file and start logging.
 3. Figure out how to upload Slogger to google app store.
 
 4. Read the papers sent by Glenn.
+
+07/16
+======
+1. Kindle fire OS 8 (android 11, minSDK=30) won't support
+setExactWhileIdle(), so I have to change the code to make it work on
+the kindle fire tablet (also change sloggerlib). This will affect the
+Slogger for Pixel 2 watches. The pixel watch Slogger would have
+different code to work with SDK=31. 
+
