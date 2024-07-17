@@ -17,4 +17,14 @@ the kindle fire tablet (also change sloggerlib). This will affect the
 Slogger for Pixel 2 watches. The pixel watch Slogger would have
 different code to work with SDK=31. 
 
-2. Test slogger on Kindle fire OS for 10 min and transferred accel data to server. 
+2. Test slogger on Kindle fire OS for 10 min and transferred accel
+data to server.  
+
+07/17
+======
+1. Slogger for Tablet got killed when launching other gaming apps
+(while Slogger working in background with foreground service). It took
+me hours to figure out that there is a "Game Mode" which should be
+turned off when playing games on the kindle fire. In "Game Mode", all
+other notifications will be killed, including the foreground service
+notification. 
