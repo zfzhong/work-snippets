@@ -21,3 +21,9 @@ www.simplyfact.org
 paired with samsung galaxy phone using the Google Pixel Watch app on
 the phone. On the phone, we open the internal testing link and can
 install the Slogger App on the watches.
+
+- If we want to install the Slogger on multiple pixel watches that are
+  linked to a single phone (with a single google account), you can log
+  into the google play store via web and install the Slogger on each
+  watch (click the 'Install on more devices' button):
+  https://play.google.com/store/apps/details?id=com.application.slogger&hl=en_US

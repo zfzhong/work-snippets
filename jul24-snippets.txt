@@ -28,3 +28,18 @@ me hours to figure out that there is a "Game Mode" which should be
 turned off when playing games on the kindle fire. In "Game Mode", all
 other notifications will be killed, including the foreground service
 notification. 
+
+
+07/17
+======
+1. Tablet data collection:
+   - The Slogger for tablet won't start at a pre-configured future
+   time since it doesn't support setExactWhileIdle() as it is API 30.
+   - When play games with the tablet, the participant might put the
+   tablet on his/her lap. This might make the accelerometer of the
+   tablet motionless.
+   - When play games with the tablet, the tablet might be held
+   differently for different games, also the dominant hand might be
+   different across different games, too.
+   - data collection parameters: left/right hand, game (subway surf,
+   watch ads video, geometry dash), on lap/hold in air.
