@@ -1,0 +1,23 @@
+08/05
+======
+- Olympic games is a big event, and Chinese people care olympics games
+very much (bacause the gov/media spent a lot of resource on
+it). Therefore, this kind of event (once every 4 years) can be
+exploited to get internet traffics. For example, some simple
+statistics about the olympics swimmers would get a lot of attention:
+list all medal receivers (year/country/past/current position) and also
+the ones who got caught for doping and got banned. Making a good page
+to circulate on internet, either positive or negative info about it
+(make sure it's imple fact) would cause a lot of attention. Because
+the a lot of information was hidden from the chinese people, and
+anything that is informative might got attention. The website can be:
+www.simplyfact.org
+
+
+
+08/28
+======
+- Two pixel watches need to be 'disconnect & reset' before them can be
+paired with samsung galaxy phone using the Google Pixel Watch app on
+the phone. On the phone, we open the internal testing link and can
+install the Slogger App on the watches.
