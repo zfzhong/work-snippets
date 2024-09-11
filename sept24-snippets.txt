@@ -1,0 +1,7 @@
+09/10
+======
+- We can programmably set the Pixel watches to do BLE advertising so
+that other device can discover the watches via BLE scan. The BLE scan
+also returns RSSI which can be used to estimate the physical
+distances.
+
