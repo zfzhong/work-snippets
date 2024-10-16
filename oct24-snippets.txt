@@ -1,0 +1,13 @@
+10/15
+======
+- Went to lake with battery bay and all other devices. The traffic was bad and it took us more than 1 hour to reach the lake. It's already 6:30pm. It's getting dark. We threw the USBL into water than realized that we never thought about how to place the battery bay. It shold be placed on top of the electronics bay and firmly fixed there. Anyway we took a underwater video with the GoPro that I had. The battery bay worked well. We just need to get it properly assembled.
+
+10/16
+======
+- Had the robotics meeting at 9:30 and it ended around 10:50. The greek prof didn't ask me any questions. I tried to tell him we did some work on robotics and he seemed not interested and asked me to post my GoPro video on Slack.
+
+- Went another meeting with mmWave prof and he suggested doing simulation (kind of ray tracking) first. He asked Reva to get code from Zhuang. I am not sure what work I should do. I asked Srihari, he is not sure, either. He sadi probably at this stage I shold also looked into the simulation code. I then asked Zhuang about this simulation code. He pointed me to the source of the code he got from. He said there is no real simulation, there is ray tracing though. I will look into the code and see what it does.
+
+
+
+
