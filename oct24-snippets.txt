@@ -9,5 +9,11 @@
 - Went another meeting with mmWave prof and he suggested doing simulation (kind of ray tracking) first. He asked Reva to get code from Zhuang. I am not sure what work I should do. I asked Srihari, he is not sure, either. He sadi probably at this stage I shold also looked into the simulation code. I then asked Zhuang about this simulation code. He pointed me to the source of the code he got from. He said there is no real simulation, there is ray tracing though. I will look into the code and see what it does.
 
 
+10/17
+======
+- Slept in the morning and wake up by fire alarms. My wife cooked something with microwave and the paper towel was burning. Firefighters came.
 
+- Submitted USAMTS math solutions for william. Took me a long time to create github for him with his gmail and them draw graphs with asymptote.
+
+- BLE integration with Slogger, the advertising part is working.
 
