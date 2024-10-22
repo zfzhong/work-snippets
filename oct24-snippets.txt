@@ -25,3 +25,4 @@
 ======
 - work on BEL logging files, so that the file can be uploaded to the server. Tested locally with https server (need to setup django with https).
 - UI change done. Only configure BLE mode from UI. For SCAN mode, the scan interval is 10 seconds and scan duration is 2 seconds; for ADVERTISE mode, it's continuous advertising.
+- change the server code to handle BLE file uploading. Need to push the server code to producation (ask Matt).
