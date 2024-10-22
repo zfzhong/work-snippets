@@ -20,3 +20,8 @@
 - BLE integration with Slogger, the Scan part is working, tested on both Pixel watch and Kindle Fire tablet. Two tasks to do: 1) UI to configure BLE mode: scan/advertise, and scan interval: 4/10/15 seconds. The preliminary design is: interval 4 seconds (2 seconds duration), interval 10 seconds (4 seconds duration), interval 20 seconds (6 seconds duration).  2) Log BLE scan data into files and upload the file to server.
 
 
+
+10/21
+======
+- work on BEL logging files, so that the file can be uploaded to the server. Tested locally with https server (need to setup django with https).
+- UI change done. Only configure BLE mode from UI. For SCAN mode, the scan interval is 10 seconds and scan duration is 2 seconds; for ADVERTISE mode, it's continuous advertising.
