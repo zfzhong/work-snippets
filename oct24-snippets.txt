@@ -32,3 +32,4 @@
 ======
 - Meeting in the morning. Srihari said I should lookinto the ray tracing code. Sent email to Reza and got the code share by Zhuang.
 - Changed Slogger wearable UI to configure BLE. Tested advertising locally.
+- Should also change the file stats on Slogger wearable to show the number of BLE files.
