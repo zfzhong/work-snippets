@@ -36,3 +36,18 @@
 - Need more test on Slogger wearable for BLE logging, since it creates files unexpectedly.
 - Went for a lake test, partially successful. Alex and I met at 2:30pm, we did soldering for the battery bay since one wire broke unexpectedly. We started to prepare for the lake test by charging batteries, load devices to the car, and put the boat on top of my car. We couldn't find a proper rope to stablize the boat, etc. The preparation took us about 2 hours. It took us 40 minutes to drive to the lake. When we started the services for TOP/Fish, it worked well. GPS worked well, and changing of source level from webserver worked. However, Alex pulled the Fish out of water and the source level changed from 1 to 3 automatically (I asked him to pull the Fish out of water so that I can hear the loud noise when it's transmitting at source level 1. But I forgot that the Fish has a pressure sensor to detect its out of water and the transmitting will stop). Anyway, I need to investigate the source level change.
 - Another bigger issue we had is we killed the ros2 nodes and moved devices to the center of lake. When I tried to ssh to the Top/Fish at the center of the lake, I couldn't reach them. It obvisous that the Fish/Top got disconnected from the hotspot. This was not what we expected. I need to investigate this, too.
+
+10/29
+======
+- Unload all robotics devices from my car. I realized that the Fish tube has water inside. We should pull it slowly underwater, otherwise the pulling squeezes the tube and water will leak in. Fortunately the water was not too much and the electronics are working fine. I used my hair dryer to dry the electronics to get rid of the mist. The devices are heavy, unloading it self took more then 30 minutes.
+- I then connect the battery bay and link it to my phone hotspot to copy the rosbag data. The Top electronics works fine. The Fish took a while to boot, I tried multiple ways and I finally copied the data from the Fish, too. Copying the data itself took me more than 1 hour.
+- I checked the battery boat, it still has 97% of battery (surprise). The Fish battery is 19.8 (full was 21). That gave me an idea how quickly the battery was consumed during experiment.
+- The data I copied from both Fish and Top are: ros bag files, and log files (~/.ros/log/xxxx.log).
+
+- Had phone conversation with Srihari, he suggested me to organize data and generate plots in the following ways:
+  1) Data: 1 file for data stream; 1 file for rssi stream; both are time series data.
+  2) Merged file: 1 file for all. Columns: timestamp, depth, temperature, x, y, z, rssi, srclevel
+  3) Plots:
+     - x: distance; y: rssi (1 plot for al 4 source level, different colors)
+     - x: distance; y: depth; z: rssi (4 plots; each one for a source level)
+
