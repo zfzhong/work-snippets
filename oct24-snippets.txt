@@ -51,3 +51,8 @@
      - x: distance; y: rssi (1 plot for al 4 source level, different colors)
      - x: distance; y: depth; z: rssi (4 plots; each one for a source level)
 
+- During the lake test, I realized that the Fish might not get the message from Top to change source level to lower-level. In that case, the Top is transmitting at a lower source level while the Fish is still transmistting at a higher source level. Unfortunately, the message sent the the server doesn't include the source level information. Ideally, the message sent to the server should include both depth and source level information (for both the Top and the Fish).
+- Basically, we need to have a good understanding of the Top/Fish's behavior in the current stage. For example, how the responde to source level change? Can the two devices send messages to each other with different source levels at the same time. What's the mechanism to discover the source level that the sender is using upon receiving messages.
+- Other questions: what is the package loss rate? retransmitting count on average? I realized that sometime we can't decode the messages from the content read from socket, or we only decode partial messages. Is that because of packet loss? We need to further investigate the data decoding mechanism.
+
+- After checking the data and code, it seems that the Fish never adjust its source level (always 3). One possibility is that it implicitly changed its source level upon receiving the message from the Top, because we indeed heard the noise which was much louder. So we might need to explicitly check the source level of the Modem. The way to log source level should be redesigned: we should log the source level in the same way as we log the battery level.
