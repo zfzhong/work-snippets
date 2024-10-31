@@ -56,3 +56,10 @@
 - Other questions: what is the package loss rate? retransmitting count on average? I realized that sometime we can't decode the messages from the content read from socket, or we only decode partial messages. Is that because of packet loss? We need to further investigate the data decoding mechanism.
 
 - After checking the data and code, it seems that the Fish never adjust its source level (always 3). One possibility is that it implicitly changed its source level upon receiving the message from the Top, because we indeed heard the noise which was much louder. So we might need to explicitly check the source level of the Modem. The way to log source level should be redesigned: we should log the source level in the same way as we log the battery level.
+
+10/31
+======
+1. Last night, I did BLE scan work to collect data over a 5-min period. The pixel watch can advertise even when the screen goes off.
+2. Today, my wife was asking me what she should work on for the rest of her life. We discussed how to teach english well for chinese students. The major problem is, chinese students do not use english after class. I would rather teach them to get good grades in standard tests, while also emphasizing on speaking and writing. It took us almost the whole morning to discuss the issue. In the mean time, we went to DMV to get the decal for my honda.
+3. I spent the whole afternoon to change the robotics code to 1) get source level from device 2) send the source level info to the server. I totally forget how design the whole thing. I have a node to handle command (change source level), it check the server every 10 seconds to get command to change source level, if any. Suddenly, the GPS node was not working, it complains that /dev/serial0 is busy. I am not sure why. I forgot how I configured GPS, my only impression that it was not hard.
+4. I also make the Fish to put source level into the packet it sends to the Top. I changed the msg format for the TOP to publish the source level along with rssi. 
