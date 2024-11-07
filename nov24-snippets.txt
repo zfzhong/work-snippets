@@ -1,0 +1,7 @@
+11/06
+======
+1. Installed SloggerTablet on two Pixel Tablets. The Pixel Tablets has Android 14 system, which has specific requirement on two permission:
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+
+    I changed code to make it work. For BLE scan, we launch a scan every 20 seconds, and each scanning lasts for 10 seconds. We only record the scanned device if it has a deviceName (otherwise we ignore). This also requires change to the code on bufferedWriter.  
