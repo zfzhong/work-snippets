@@ -4,6 +4,8 @@
     <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
 
+    ref: https://medium.com/@aarie33/schedule-exact-alarms-are-denied-by-default-onandroid-14-ccbfbf54586c
+
     I changed code to make it work. For BLE scan, we launch a scan every 20 seconds, and each scanning lasts for 10 seconds. We only record the scanned device if it has a deviceName (otherwise we ignore). This also requires change to the code on bufferedWriter.  
 
 11/07
@@ -13,4 +15,12 @@
 3. We need to have the concept of 'experiment'. For each experiment, we have a specific series of figures to display.
 4. Created a new msg structure under usbl_interfaces/UsblLong.msg, which is the exact message stucture as USBLLONG. The privious USBLFixRaw structure will not be used anymore. Need to rebuild this msg type tho.
 5. upload data to server via different url.
-6. GPS somehow is not working.
+6. GPS somehow is not working (probably need to do raspi-config)
+
+
+11/07
+======
+1. Published Slogger App 1.6.3 to the Google Play Store. Somehow the signing key was missing from directory .../outputs/keys, I had to regenerate one, the keystore file is
+/Users/zfz/workspace/slogger/app/build/outputs/keystorefileforsloggerapp1
+
+2. Published SloggerTablet 1.6.3 to the Google Play Store, too.
