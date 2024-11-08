@@ -5,3 +5,12 @@
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
 
     I changed code to make it work. For BLE scan, we launch a scan every 20 seconds, and each scanning lasts for 10 seconds. We only record the scanned device if it has a deviceName (otherwise we ignore). This also requires change to the code on bufferedWriter.  
+
+11/07
+======
+1. Work on aws server database tables: UsblLong, RecvIms, FishData. The purpose is to upload all data to the server and generate figures on the server automatically.
+2. We need to change the way to send sync packages to the Fish from the Top. We should use SENDIMS command.
+3. We need to have the concept of 'experiment'. For each experiment, we have a specific series of figures to display.
+4. Created a new msg structure under usbl_interfaces/UsblLong.msg, which is the exact message stucture as USBLLONG. The privious USBLFixRaw structure will not be used anymore. Need to rebuild this msg type tho.
+5. upload data to server via different url.
+6. GPS somehow is not working.
