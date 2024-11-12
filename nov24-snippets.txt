@@ -18,9 +18,29 @@
 6. GPS somehow is not working (probably need to do raspi-config)
 
 
-11/07
+11/08
 ======
 1. Published Slogger App 1.6.3 to the Google Play Store. Somehow the signing key was missing from directory .../outputs/keys, I had to regenerate one, the keystore file is
 /Users/zfz/workspace/slogger/app/build/outputs/keystorefileforsloggerapp1
 
 2. Published SloggerTablet 1.6.3 to the Google Play Store, too.
+
+3. Write python code to populate the USBLLONG database.
+
+11/09
+======
+1. Generated plots using plotly for robotics data. Still, the FishData needs to be populated.
+2. We need an expgroup design, so that an expgroup can have many  experiments (on that day). We would like to plot all figures for that expgroup on the same page.  
+
+
+11/10
+======
+1. While processing the FishData, I found that there's duplicated packets received (same seqNum from fish, different receiving time). We need to catch this error/duplication when write to db from the lake.
+2. Displayed multiple figures in a signle webpage for the same exp group.
+3. Website for robotics project done.
+
+11/11
+======
+1. Spent the whole afternoon with Titon to print the mounting board for the Fish.
+2. Created models for Kaleidomath: Source, MathTag, TagRelation, MathProblem.
+3. Shooting practice with WZ, I found that he needs to change his shooting form (his left hand is block his right hand). He was reluctant to change.
