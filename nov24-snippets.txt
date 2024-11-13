@@ -44,3 +44,9 @@
 1. Spent the whole afternoon with Titon to print the mounting board for the Fish.
 2. Created models for Kaleidomath: Source, MathTag, TagRelation, MathProblem.
 3. Shooting practice with WZ, I found that he needs to change his shooting form (his left hand is block his right hand). He was reluctant to change.
+
+11/12
+======
+1. Installed the mounting board, did some soldering, waiting for parts. Bought o rings.
+2. Can't use the air decompresser to check the air tightness, coz some parts missing.
+3. Write parser to parse all AMC8 Problems and populated db on server.
