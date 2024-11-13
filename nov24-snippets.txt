@@ -50,3 +50,7 @@
 1. Installed the mounting board, did some soldering, waiting for parts. Bought o rings.
 2. Can't use the air decompresser to check the air tightness, coz some parts missing.
 3. Write parser to parse all AMC8 Problems and populated db on server.
+
+11/13
+====
+1. Found a bug in amc_problem_raw_parser.py: it didn't process the itemization correctly (for example, AMC10 2019 10A, p9). Should fix this. 
