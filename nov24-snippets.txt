@@ -54,3 +54,26 @@
 11/13
 ====
 1. Found a bug in amc_problem_raw_parser.py: it didn't process the itemization correctly (for example, AMC10 2019 10A, p9). Should fix this. 
+2. Assembled fish with the 3D-printed mounting board. Will do soldering tomorrow.
+
+11/14
+======
+1. Get response from Withings about data gap. Wrote scripts to merge the data and plot.
+2. Fixed the amc parser bug to handle itemization correctly.
+3. Assembled the Fish, did all soldering again with Titon. Tested air tightness in the Platt pool, still has leakage.
+
+11/15
+======
+1. Fixed the sealing problem for the Fish, they O rings I bought from ACE hardware worked well. It looked slightly larger than the circumference of the flange, but that's exactly the reason why it works.
+2. The raspberry pi 4 was actually damaged because of water. Its wireless interface could not be identified after booting. I have to replace it with a raspberry pi 3 and reconfigure it (raspi-config, i2c, serial, etc).
+3. Went to the lake (set out at 3:40 pm, started testing at the dock around 5 pm). I realized that I have changed too much code and I need to rebuild them. The funny thing is the ROS2 build tool relies on file timestamp to build new changes. I scp the CMakelist file and it didn't work because the timestamp. I spent one hour to debug there on the dock. Didn't really get the data sent to server successfully. I dropped my iphone into the lake when I collect my folding chairs. The water was about 6 m in depth. I couldn't get it back. It's a bad day. 
+
+11/16
+======
+1. Teaching, basketball traing with kids, watch football game (gamecocks vs misourri tigers).
+2. Started withings test.
+
+
+11/17
+======
+1. The withings data looks good, no gaps anymore. I guess they fixed their API.
