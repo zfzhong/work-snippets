@@ -77,3 +77,7 @@
 11/17
 ======
 1. The withings data looks good, no gaps anymore. I guess they fixed their API.
+2. Added jquery to the show_problem.html
+3. Need properly design the UI for kaleidomath: 1) functionality to add/remove a MathTag to/from a problem; 2) functionality to list all problems given a MathTag; 3) Add one/many problems to a problem batch, and generate PDF for a batch of problems (here we need to introduce the concept 'batch', which is a list of problems customized by a user).
+4. More on problem 'batch': a) user can generate pdf only when it 'lock' the batch; b) user can 'unlock' the batch and edit it; c) whenever the user lock the batch, there will be a log generated with a summary like "locked on 11/17/2024 HH:MM:SS, with 35 problems. The idea here is to let the user to track the editing history of the batch, not the details about what has been changed. 
+
