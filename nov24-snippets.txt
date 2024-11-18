@@ -84,3 +84,4 @@
 6. Fixed usbl_interfaces/msg/UsblLong.msg problem: deleting the build/ directory and rebuild.
 7. Fixed the bugs in py_msg_process.py, the datetimefield in django problem (should pass  datetime.isoformat() in http post request parameters).
 8. William went to AAU basketball tryout, he did a good job there: good defense, he missed a free throw, but made a 3-pointer and a layup.
+9. Did air test for USBL top/fish. Fixed all issues: uploading fishdata to the server, change source levels.
