@@ -93,5 +93,6 @@
 3. Did 6-hour testing on Lake Murray. The USBL's auto source level adpation didn't work well. Sometimes the Top changed its source level, the Fish never change. Not sure why.
 4. Observations: The Fish sometimes drop about 50 packages (depth data), and the time_sent and time_recv has about 3 min difference. There seems to be congestions on the Fish side (too many packages queued to be sent?) note that time_sent is not the time to transmit, it's the time to pass to the hardware to transmit (it might get delayed if congestion happens). We should also measure the congestion status also.
 5. I forgot I implemented command control to transmit cmd message ot the Fish to ask it to stop/resume transmission or change source level. Anyway, right now we include the Top's source level in its sync message and the fish will change its source level once it receives the sync message.
+6. Coded withings offset to pull data for a test that lasted for over 24 hours. Still have gaps, but much better than before.
 
 
