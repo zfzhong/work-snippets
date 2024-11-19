@@ -85,3 +85,13 @@
 7. Fixed the bugs in py_msg_process.py, the datetimefield in django problem (should pass  datetime.isoformat() in http post request parameters).
 8. William went to AAU basketball tryout, he did a good job there: good defense, he missed a free throw, but made a 3-pointer and a layup.
 9. Did air test for USBL top/fish. Fixed all issues: uploading fishdata to the server, change source levels.
+
+11/18
+======
+1. The Fish side evologics_driver.py should be rewritten. It's quite different from the Top side. Actually both the top side and fish side should inherit from a parent class. Basically, we need to restructure the code.
+2. Right now we just need to process data offline, then we should have the msg_processor.py to process the raw signal data from USBL.
+3. Did 6-hour testing on Lake Murray. The USBL's auto source level adpation didn't work well. Sometimes the Top changed its source level, the Fish never change. Not sure why.
+4. Observations: The Fish sometimes drop about 50 packages (depth data), and the time_sent and time_recv has about 3 min difference. There seems to be congestions on the Fish side (too many packages queued to be sent?) note that time_sent is not the time to transmit, it's the time to pass to the hardware to transmit (it might get delayed if congestion happens). We should also measure the congestion status also.
+5. I forgot I implemented command control to transmit cmd message ot the Fish to ask it to stop/resume transmission or change source level. Anyway, right now we include the Top's source level in its sync message and the fish will change its source level once it receives the sync message.
+
+
