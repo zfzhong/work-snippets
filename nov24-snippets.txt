@@ -96,3 +96,17 @@
 6. Coded withings offset to pull data for a test that lasted for over 24 hours. Still have gaps, but much better than before.
 
 
+11/19
+======
+1. Copied rosbag file from the Fish. Need to build a fish_msg_processor.py to process the raw signal message and upload to server.
+2. I am thinking: the USBL top can send command to the fish when it detects that the Fish side has congestion, so the Fish side can slow down.
+3. The MathTag design:
+   a) User filter tags and hover over a tag to click button to add the tag;
+   b) Click "Add";
+   c) Js requsts send to the server to add the selected tags;
+   d) if success, put the new tag at the end of the tag list of the problem; if fail, pop error message;
+
+11/20
+======
+1. py_fish_msg_processor.py: upload the fish side RSSI information to the server. The fish side actually should have RECVIMS instead of RECVIM, this requires the Top side to change they way to send the sync package. It should use SENDIMS insted of SENDIM. We need to implement sending packages with SENDIMS.
+
