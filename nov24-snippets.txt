@@ -109,4 +109,11 @@
 11/20
 ======
 1. py_fish_msg_processor.py: upload the fish side RSSI information to the server. The fish side actually should have RECVIMS instead of RECVIM, this requires the Top side to change they way to send the sync package. It should use SENDIMS insted of SENDIM. We need to implement sending packages with SENDIMS.
+2. Really need to run serveraws locally, so that i can make the development faster.
+
+11/21
+======
+1. Setup serveraws locally with postgresql.
+2. Configured permissions for each viewsets.
+3. Need to work on user registration, authentication, and user groups. Spent the whole afternoon to figure out Permissions and Authentications. Now only need to make the login/home page more elegent.
 
