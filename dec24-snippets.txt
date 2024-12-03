@@ -1,0 +1,9 @@
+12/02
+======
+1. Went to lake test for the day. Collected data at a new location. Need to specify the GPS locations on my map.
+2. Fish tangled with the buoy lines. Should be more careful next time.
+3. Communication somehow disconnected from the Top side. Tried to change the Top side source level and it didn't excute command from the server. Need to check the error.
+4. The wave started to pickup and we had to leave the locaiton coz Alex had class in the afternoon.
+5. It took us 25 minutes to navigate to the new location.
+6. I need to develop a separate ros node to restart the Top and its services. Fish doesn't need this because we can mannually restart the Fish.
+
