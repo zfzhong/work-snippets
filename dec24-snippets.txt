@@ -7,3 +7,19 @@
 5. It took us 25 minutes to navigate to the new location.
 6. I need to develop a separate ros node to restart the Top and its services. Fish doesn't need this because we can mannually restart the Fish.
 
+12/03
+======
+1. Srihari wants to add a new plot to the web: to show rssi/sourceLevel over distance. He also want me to add usbl multipath data report.
+2. Srihari wants me to start another experiment with withings.
+3. Srihari suggested having a configuration accessible from the webserver so that we can control the Slogger configuration of every device. We need to carefully design this. And we want to include a list of BLE devices to discover with BLE scan.
+
+12/04
+======
+1. Got fever coz I did pullups without wearing much clothings after showering two days ago.
+2. We need to redesign the way we parse data message for USBL top.
+3. We should also control message transmitting rate (of the fish) from the server. 
+
+12/05
+======
+1. Withings data still has gap issue.
+2. Got MITAMA and 8iVFBv2 datasets for the BVE project. Need to write code to sample each frame of the original data to get point cloud.
