@@ -23,3 +23,18 @@
 ======
 1. Withings data still has gap issue.
 2. Got MITAMA and 8iVFBv2 datasets for the BVE project. Need to write code to sample each frame of the original data to get point cloud.
+
+12/06
+======
+1. Meeting in the morning. Sanjib wants a frame where a human is standing while holding two arms horizontally.
+2. Submitted z status form and major advisor form to Sri. Had christmas lunch in the dept.
+3. Sent lead rings back to the robotics lab.
+4. Start to read the MITAMA paper.
+5. Found a paper that develops mode for robots to write code for themselves:
+   "Code as Policies: Language Model Programs for Embodied Control" by folks at Google Robotics.
+   I somehow believe this is related to my Kaleidoscope project, where I want to use computer program to generate models for math word problems, and based on these models, computer can also generate code, which produces a variety of 'similar' word problems.
+6. Found two papers on building point cloud from mmWave signals.
+
+12/08
+======
+1. Wrote Batch/BatchProblem modes for Kaleidoscope. We can add any problem to an OPEN batch. We still need to work on viewing/editing batches and generating pdf given a FINALIZED batch.
