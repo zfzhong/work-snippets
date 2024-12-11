@@ -38,3 +38,7 @@
 12/08
 ======
 1. Wrote Batch/BatchProblem modes for Kaleidoscope. We can add any problem to an OPEN batch. We still need to work on viewing/editing batches and generating pdf given a FINALIZED batch.
+
+12/10
+======
+1. Basic code logic working for generating pdf for a finalized batch. But many details needs to be done: a) authentication, permission in generating and retrieving files; b) batch edit (change mode, delete prob); c) pdf file hosting with nginx
