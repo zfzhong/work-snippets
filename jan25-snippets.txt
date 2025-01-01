@@ -1,0 +1,5 @@
+1/1
+======
+1. Created 'batch_details.html', wrote a simple batch_detail() view. Got the following error:
+   ".accepted_renderer not set on Response". Need to figure it out.
+2. Need to proper design the 'batch_details.html' page, and the actions to edit the batch (change mode, delete problems, etc)
