@@ -3,3 +3,5 @@
 1. Created 'batch_details.html', wrote a simple batch_detail() view. Got the following error:
    ".accepted_renderer not set on Response". Need to figure it out.
 2. Need to proper design the 'batch_details.html' page, and the actions to edit the batch (change mode, delete problems, etc)
+3. Have a raw page of 'batch_details.html'. Still need to implement a) editing the mode of a batch, and b) deleting/restoring a mathprob from/to a batch.
+4. There are some logics: if a batch is FINALIZED or LOCK mode, the mathprobs of this batch should not be editable; only in OPEN mode, they are editable; Only in the "FINALIZED" mode, the option to generate PDF is available. 

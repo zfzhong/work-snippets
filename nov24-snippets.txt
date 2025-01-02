@@ -116,4 +116,4 @@
 1. Setup serveraws locally with postgresql.
 2. Configured permissions for each viewsets.
 3. Need to work on user registration, authentication, and user groups. Spent the whole afternoon to figure out Permissions and Authentications. Now only need to make the login/home page more elegent.
-
+4. Need to fix csrf issue for tagging math problem on the web.

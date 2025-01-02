@@ -42,3 +42,33 @@
 12/10
 ======
 1. Basic code logic working for generating pdf for a finalized batch. But many details needs to be done: a) authentication, permission in generating and retrieving files; b) batch edit (change mode, delete prob); c) pdf file hosting with nginx
+
+12/16
+======
+* Steps to Add Permissions in /etc/sudoers.d/
+  1. Create a New File for Your Configuration Run the following command to create a new file:
+
+     sudo visudo -f /etc/sudoers.d/pi_reboot
+
+     This ensures that the file is edited safely, just like the main sudoers file.
+
+  2. Add Your Configuration Add the following line to allow the specific user (pi_user) to reboot without a password:
+
+     pi_user ALL=(ALL) NOPASSWD: /sbin/reboot
+
+     Replace pi_user with the actual username of the Raspberry Pi user running the script (e.g., pi).
+
+  3. Save and Exit Press Ctrl+X, then Y, and Enter to save the changes and exit.
+
+  4. Verify the Configuration Test the setup by running this command as the user:
+
+     sudo /sbin/reboot
+
+     If it works without asking for a password, the setup is correct.
+* Spent the whole morning with Xiang to work on TopReboot ros2 node. It worked. We need to start all ros2 services up on booting the raspberry pi4.
+* Did motion capture trial with Zhuang and Hem. I figured out to export tracking data as fbx file and load it to meshlab. However, seems the Meshlab only loads binary FBX file. I saved ascii fbx. Need to get the binary data later to reconstruct mesh (hopefully it will work).
+
+12/24
+======
+1. The binary FBX file exported from OptiTrack only contains motions of skeleton (no skin). This is confirmed by OptiTrack today.
+2. Just want to mention that we should tie the Fish differently so that the Fish's atenna always points upright. I believe the direction affects the communication significantly when the Fish is far away from the Top.
