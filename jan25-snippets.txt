@@ -9,3 +9,5 @@
 1/8
 ======
 1. Extended AWS disk space to 32G. Installed pdflatex and asymptote. Batch PDF generation is working. Still need to figure out how to download the PDF and restrict permission for downloading.
+2. We can create a batch and then generate PDF and download. Still, we need to work on editing batch name, notes, etc. We need to have a page to display multiple problems (about 10) on a single page for a given source (AMC8-2024).
+3. Started to create a GpsData model to store all GPS data over time for the robotics project.
