@@ -11,3 +11,12 @@
 1. Extended AWS disk space to 32G. Installed pdflatex and asymptote. Batch PDF generation is working. Still need to figure out how to download the PDF and restrict permission for downloading.
 2. We can create a batch and then generate PDF and download. Still, we need to work on editing batch name, notes, etc. We need to have a page to display multiple problems (about 10) on a single page for a given source (AMC8-2024).
 3. Started to create a GpsData model to store all GPS data over time for the robotics project.
+
+1/9
+======
+1. Got an strange error that when I run 'python manage.py runserver localhost:8000', the server didn't server /static/rest_framework/css/default.css; I didn't know what the problem was until I found out the I have to set 'DEBUG=True' in order for Django to  auto serve static files. I put a typo 'DBUG=True'. It took me hours to realize it.
+
+1/11
+======
+1. Implemented basic delete/restore button for a Batch. Added fadeOut effect upon success batching a problem.
+2. To make batching more effectively, I should put a 'next/prev' button on each problem page so that we can easily navigate to the next or previous problem from a source.
