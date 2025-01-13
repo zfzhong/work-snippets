@@ -20,3 +20,8 @@
 ======
 1. Implemented basic delete/restore button for a Batch. Added fadeOut effect upon success batching a problem.
 2. To make batching more effectively, I should put a 'next/prev' button on each problem page so that we can easily navigate to the next or previous problem from a source.
+
+1/13
+======
+1. Redesign the answer/datablock for Kaleidoscope: an answer might consists of multiple data blocks. We might need another week to implement it.
+2. Need to do literature research for image-based human volume estimation.
