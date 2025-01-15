@@ -25,3 +25,9 @@
 ======
 1. Redesign the answer/datablock for Kaleidoscope: an answer might consists of multiple data blocks. We might need another week to implement it.
 2. Need to do literature research for image-based human volume estimation.
+
+1/15
+======
+1. Following Titon's recommendation, I started to play with Clojure. It would take some time for me to learn this language. I found some toy applications built using Clojure and Redis. Probably it's time for me to learn them.
+2. Wrote script to read a MathProblem from database and split into a TexBody and an AnswerGroup. The AnswerGroup tex need to be standardized. The design is to decompose an AnswerGroup into several answers, but when we reassemble these answers, the tex generated would be standardized.
+3. Did a bit math about polygons: last night WZ's homework has several problems about regular octagon. We initially didn't realized that a regular octagon is just a square after cutting its 4 corners. So given the side length of a regular polygon, how to calculate its area by elementary geometry methods? It's easy for hexagon and octagon, but it's a bit hard for pentagon. It's not possible for heptagon (without trigonometry).
