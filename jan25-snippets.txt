@@ -45,3 +45,8 @@
 1/18
 ======
 1. Finished script to decompose AnswerGroup into AnswerChoice. Tested.
+
+1/21
+======
+1. Finished script 'update_mathproblem.py', and I believe this is useful, since I found there are multiple errors in the latex source. It's hard to realize them if we dont decompose them into different structures (texbody, answergroup, answerchoice, etc)
+2. Finished decomposing all AMC8 (1999-2024) problems into TexBody, AnswerGroup, and AnswerChoice. The next step is to decompose TexBody and AnswerChoice to datablocks and generate images. Hopefully, by next week we can decompose them into datablocks. This also require a new design for the datablocks.
