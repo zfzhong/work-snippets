@@ -54,3 +54,9 @@
 1/22
 ======
 1. Played with datablock code, it worked well (I wrote it in china, 3 years ago). Now I need to change the design of TexBody/AnswerGroup/AnswerBody to add a field 'prob_key', which is readable and will be good for debugging purpose (maintainance in the future).
+2. After a night's thinking, I realized that we dont need to change the design of TexBody/AnswerGroup/AnswerChoice. The field 'prob_key' is not needed. The reason is that 'prob_key' offers some limited readable information such as 'AMC-8-2020-5', but it does not offer the content. We still need to use the prob_key to find the mathproblem to get it's TexBody, which is equivalent to the usage of 'prob_id'. It's time to put the DataBlock mode in place.
+
+1/23
+======
+1. Took my mom and family to the riverwalk for the snow day.
+2. Impelemnted datablock for both TexBody and AnswerChoice, tested locally. Needs to generate images for datablocks. This might take about two weeks, since I need to focus on the MeshLab work now.
