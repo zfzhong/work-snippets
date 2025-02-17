@@ -25,3 +25,4 @@
 ======
 1. Finished uploading all AMC10 problems (2000-2024) to production.
 2. Started to upload MathCounts problems (national 2010-2015) to local server.
+3. Spent 30 min fishing under the bridge, no striper coming yet.
