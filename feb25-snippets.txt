@@ -12,4 +12,16 @@
 5. William negotiated with me for getting his PS5 back, I refused to give it back and told him the reason. He was testing me. I said i will see his behave this week and then decide. He said that I should tell him before I took his PS5 away.
 
 
+2/3
+======
+1. Work with Candy to get python script working to process W4E data. Several changes made to the script: a) the master tracking sheet was hard coded, candy wants to read a different master tracking sheet in the w4e directory. we have to make change in the code to specify the new path to the master tracking sheet; b) for PA protocol, the code will process fitabase data at the end (aggregation), and it complains if no fitabase data exists. We made change to this part: if there is no fitabase file, the code wont do aggregation for fitbabase.
 
+2/5
+======
+1. Opened the electronic bay (the metal box) and found water inside. I forgot the wifi logic: the Top/Fish automatically connects to wifi hotspot 'usbltop' if exists. After a bit research, I realized that the GPS data reported by the adafruit gps should be converted to 'decimal' before we can use it to get location on google map. I need to write a conversion code for it.
+2. William did 20 mins math before doing anything in the evening. He felt good about it. I will try to make sure he does math first on a daily basis, otherwise he wont be willing to do it in the late night.
+
+2/16
+======
+1. Finished uploading all AMC10 problems (2000-2024) to production.
+2. Started to upload MathCounts problems (national 2010-2015) to local server.
