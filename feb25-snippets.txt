@@ -26,3 +26,25 @@
 1. Finished uploading all AMC10 problems (2000-2024) to production.
 2. Started to upload MathCounts problems (national 2010-2015) to local server.
 3. Spent 30 min fishing under the bridge, no striper coming yet.
+
+2/17
+======
+1. Done setting local nginx and django: always use nginx to handle http request then forward to django server; for static file requests, the nginx will serve them directly (not forward to django server).
+2. After examining the TOP/FISH data, I think we should get the device timestamp for sending/receiving (also SENDEND/RECVEND) to understand the communicaiton.
+
+2/18
+======
+1. Examined the GPS data: found the GPS software on phone reported data which is significantly different from the data reported by the GPS installed on TOP. The data point (FISH) on '2024-12-17T19:45:07' is completely off (I finally decided to remove this data point). Based on the FISH's GPS, the FISH was at the dock at that moment, but from the TOP's GPS, we were still onsite doing experiments in the center of the lake. Since the FISH GPS gives scattered data, this data point is not trustworthy. The also reminds us to use better GPS software.
+
+2/25
+=====
+1. Need to redesign algos to plot the graphs for robotics data  analysis: a) to plot gps/usbl distance over time, we need to account for the depth as well. Essentially, we have to align gps/usbl/depth data wrt time. 
+
+2/26
+======
+1. For RoboExperiment, it's defining the start/end of an experiment. Based on the start/end time, we extract raw data and plot graphs. We can redesign the model and include a field 'tag' to indicate the type of experiment. Based on the tag, we can group experiments and plot them into a single graph.
+
+2/28
+======
+1. Generated aggreation graph for all sites (this is done by adding a 'tag' field in the model RoboExperiment).
+2. Yesterday I successfully connected to the Turntable via pyserial and issued turning/stop commands.
