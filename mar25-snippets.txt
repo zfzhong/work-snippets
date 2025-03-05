@@ -1,0 +1,15 @@
+03/02
+======
+1. Generated robocomm csf files and make them downloadable from ngnix on aws.
+
+03/03
+======
+1. idea: we need to create a Figure model for the figures that we want to generate. Many experiment can be associated to this Figure so that this figure will plot all data from the associated experiment. And we can group figures into FigureGroup, so that several figures in this group can be displayed on the same page.
+
+03/04
+======
+1. Surrendered William's phone and ps5, since he was reluctant doing math problems for CCU contest preparation. He finished 5 problems (snopy job) and wanted to stop. I encouraged him to do 10 but he refused. He then argued with me why I was more motivated than him to do the math problems. He said 'I dont give a fuck'. I then got irritated and surrendered his electronic devices. I put them into my car and quickly drove to my office so that he wont get it back without my permissions. He later tried to have a conversation with me and tried to ask his phone back. I didn't agree. He used soft tone talking to me but he tried to find excuses for his being not-so-motivated. I didnt accept but started to think about ways to help him (or making him not so easy to find excuses).
+
+03/05
+======
+1. Created a webpage to display all withings experiments. On the webpage, we can click to fetch rawdata and save them into csf files. The csv files are stored on the server and can be downloaded to local.
