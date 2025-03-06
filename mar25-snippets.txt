@@ -13,3 +13,4 @@
 03/05
 ======
 1. Created a webpage to display all withings experiments. On the webpage, we can click to fetch rawdata and save them into csf files. The csv files are stored on the server and can be downloaded to local.
+2. Create new experiment from webpage.
