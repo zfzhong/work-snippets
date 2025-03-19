@@ -14,3 +14,23 @@
 ======
 1. Created a webpage to display all withings experiments. On the webpage, we can click to fetch rawdata and save them into csf files. The csv files are stored on the server and can be downloaded to local.
 2. Create new experiment from webpage.
+
+03/13
+======
+1. Created withings_server github for ISU fellows.
+2. Finished code for realigning Pixel HR/Accel data in jupyter notebook.
+
+03/15
+======
+1. The 3D printer stopped because it ran out of material. I didn't realize that the printing can be resumed once we replace the PLA material. I aborted it. But after I replace the PLA, it didn't extrude. I spent about two hours there try to unload and reload to fix it. I didn't succeed. Zhuang fixed it later. He said just manually push it further when reload the material. Oh man, the 3d printer is poorly maintained so now it needs that extra mannual push.
+
+2. I started another printing last night.
+
+3. I briefly looked at the kaleidomath projects and realized that I need to work on datablocks (parsing both answerchoice and texbody into datablocks and then generate pictures for some blocks). This is a major part before we can show imaging on the web.
+
+03/18
+======
+1. Zoom meeting with Donny from ISU to get server running.
+2. Showed Candy how to align Pixel heart rate data using the jupyter notebook python code.
+3. Tried to write python multi-process code. Need to save point cloud into picklable object before put into a queue.
+4. Started to analyze turntable video frame by frame.
