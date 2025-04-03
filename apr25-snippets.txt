@@ -1,0 +1,14 @@
+04/02
+======
+1. Redesigned the logic of initializing sensors (gyro/accel): if it's App, init wakeup sensors; if it's Tablet, init normal sensors. This is realized by using the isWearable variable in ConfigParams. Changed the code, tested, and installed on 3 Tablets and 2 watches for Olivia (local installation).
+2. Note that the Tablet has no wakeup sensors. The App will crash if try to init wakeup sensors.
+3. The design for logging BLE scan data: After the scan ends, the log file closes, no more scanned records will be written into the log file.
+
+04/03
+======
+1. It turned out that the Pixel Tablet has Android 14 (SDK 34) and it requires extra permission to do BLE scan in the background:
+<uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+And I need to do extra handling to get permissions, since the Slogger Tablet also target Kindle Fire devices which have SDK 31.
+2. Fixed the issue and move the Slogger version to 1.6.4. So now, the Slogger can do BLE scan using the foreground service:
+a) if the user is playing another App, and the Slogger can run in the background (with foreground service) to do BLE scan;
+b) if the user turn the tablet screen to dark (inactive), then no BLE scan (but still has accel/gyro).
