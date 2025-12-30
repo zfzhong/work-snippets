@@ -1,0 +1,29 @@
+12/01
+======
+1. GAP case: data file "4075_P01" has a huge gap from 2024-09-26 18:17:02.893000+00:00 to 2024-09-29 05:37:37.808000+00:00, not much userful tags (except 'Unknown importance: 10') there to identify the type of this gap.
+2. Overlay Shutdown/Idle/Gap: 1) we firstly put all SHUTDOWN blocks in a shutdown_list, and then put all IDLE blocks in a idle_list, then merge the two lists and get a definite_list. 2) put all GAP blocks into a block_list, then merge the block_list with the definite_list. We need to design a GapBlock with 3 types: SHUTDOWN, IDLE, GAP. And for every App usage block, we want to check with the list to see whether that App usage block falls into a GapBlock.
+
+12/09
+======
+1. Guess: Orphan shutdown block might overlap with orphan idle blocks.
+2. Can orphan shutdown blocks overlap with complete idle blocks? not likely.
+3. algorithm: for each idle block, we determine whether it should be splitted. For an orphan idle block, we can't split it.
+4. Final algorithm: we use shutdown blocks and idle blocks to mark the gap blocks, help identifying gaps blocks as SHUTDOWN or IDLE. Because we care those big GAPs and we really need to identify them if they are actual SHUTDOWN or IDLE blocks. For small shutdown blocks or small idle blocks, we just keep them as is since they won't appear in the GAP block list. The algorithm works in this way: for each start_ts or end_ts from a shutdown/idle block, we try to locate it within the GAP block list. If we match this start_ts/end_ts to a GAP block, then that GAP block should be a shutdown/idle block.
+
+12/16
+======
+1. Need to fix empty SHUTDOWN.csv causing run_all_block.py error when generating graphs.
+
+12/18
+======
+1. Fixed empty SHUTDOWN.csv error.
+2. Design for generating pickups: a) dump all SHUTDOWN/IDLE/GAP blocks into a single file (format: start_ts, end_ts, type); b) since all blocks are disjoint, we can have another script reading these blocks from the file and sort the blocks by the start_ts, and this can help generate the extra column for app usage time; c) we need to merge consecutive blocks that have end_ts equal to the next start_ts, and then generate pickups.
+
+12/29
+======
+1. When build SHUTDOWN blocks, there are some special case where SHUTDOWN and BOOTUP happen at exactly the same time (identical timestamps). For example, data files "4780_C01, 4808_P01, 7202_C01, 7247_C01" have such cases. So, to deal with this case, we need to allow blocks that has the same start_ts and end_ts, which means the duration is 0 seconds. 
+2. changed the algorithm to identify GAP blocks: 1) time difference based algorithm (old algo); 2) shutdown/bootup events based algorithm (newly added). The new algo fixed error when processing data file '4520_P01'.
+3. Also changed the 'logic warning' for excluding SHUTDOWN blocks from IDLE blocks: Sometimes, SHUTDOWN did happen before IDLE in the chronicle logs.
+4. Generated PICKUPS csv files.
+
+

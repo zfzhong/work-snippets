@@ -1,0 +1,3 @@
+11/19
+======
+1. For EYES scripts, I need to plot IDLE/SHUTDOWN/GAP into the same bar graph to visually see the results.
