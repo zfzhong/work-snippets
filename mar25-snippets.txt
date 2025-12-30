@@ -34,3 +34,11 @@
 2. Showed Candy how to align Pixel heart rate data using the jupyter notebook python code.
 3. Tried to write python multi-process code. Need to save point cloud into picklable object before put into a queue.
 4. Started to analyze turntable video frame by frame.
+
+03/20
+======
+1. The prelimilary results show that the turntable doesn't have uniform turning speed: at one half it's slower than the other half. Need to confirm.
+2. The SloggerTablet's BLE logging has a bug when stopping logging: when user click the stop button, the BLE scan is cancelled but the method onScanResults() might still be called to return some results. When we try to write these results to file, error happen since the filehander might be closed. A solution is to ignore any results returned after the scan is cancelled. I code this solution and updated Olivia's 3 tablets locally. I still need to release this version to google play store (internal testing).
+
+03/31
+======

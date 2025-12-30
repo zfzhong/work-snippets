@@ -1,0 +1,7 @@
+05/01
+======
+1. for the screen_time project, parser1.py generates the same results as parse.py (with 4540_1.csv).
+2. should run all the dataset and compare parser1.py and parser.py
+3. Should identify two scenarios: 1) youtube multi-view 2) kill app
+
+

@@ -1,3 +1,6 @@
 11/19
 ======
 1. For EYES scripts, I need to plot IDLE/SHUTDOWN/GAP into the same bar graph to visually see the results.
+2. Handle empty files with the plotting scirpts.
+3. Plot IDLE/SHUTDOWN/GAP into one graph. The GAP overlaps a lot with the other two. We need to revise the GAP detection algorithm. 
+

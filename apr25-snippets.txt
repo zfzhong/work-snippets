@@ -12,3 +12,9 @@ And I need to do extra handling to get permissions, since the Slogger Tablet als
 2. Fixed the issue and move the Slogger version to 1.6.4. So now, the Slogger can do BLE scan using the foreground service:
 a) if the user is playing another App, and the Slogger can run in the background (with foreground service) to do BLE scan;
 b) if the user turn the tablet screen to dark (inactive), then no BLE scan (but still has accel/gyro).
+
+04/23
+======
+1. Fixed pixel tablet rotation causing Slogger to invoke 'destroy()' function.
+2. Ran chronicle processing script and uzaire's scipt and comprae their results with EYES script result. The EYES script is a first version that match a 'paused' event to the closest preceeding 'resumed' event. EYES genreates an activity level log, based on which we can get the app level stats.
+3. We need to merge the activity level app usage to generate aggregated usage time, taking care of the usage overlap among activities of the same app. This is done by 'get_app_screen_time.py'.
