@@ -26,4 +26,15 @@
 3. Also changed the 'logic warning' for excluding SHUTDOWN blocks from IDLE blocks: Sometimes, SHUTDOWN did happen before IDLE in the chronicle logs.
 4. Generated PICKUPS csv files.
 
+12/30
+======
+1. Need to recode the EYES processing script to generate App usage csv file.
+2. Need to put the extra column (screen on/off) to the App usage csv file.
+3. Redesigned the algorithm to separate multiple Apps overlapping problems (the data shows that sometimes over 60 Apps overlaps in time, i assume most of them are activities of the same App).
+
+12/31
+======
+1. Working in a hotel near Duke University (AC Hotel).
+2. Integrated and tested the stack-based algorithm to separate overlapping App usage, and finally had parser4.py.
+3. Need to work on the extra column. We need a script to take the App usage data and Device status data as input, and generate a Final App Usage (FAU) file that has App usage + extra column of device status. After we have this FAU file, we can calculate real screen time for each App (remove these App usage when the device is in IDLE/SHUTDOWN mode) and visualize them. When we generate the FAU file, we might only consider the primary App Usage (and sort each App usage chunk by the start time).
 
