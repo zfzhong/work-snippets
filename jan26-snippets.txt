@@ -1,0 +1,17 @@
+01/03
+======
+1. Done generating FAU files (xxx_fau.csv).
+2. Done generating Active Primary App Usage files (xxx_fau_usage.csv).
+
+01/04
+======
+1. Integrate all procedures in Makefile. "make visual dir=path/to/data/file/directory"
+2. Processed umich data and sent to umich professor.
+3. The script will crash if there is a comma in the 'application_label', the remedy is to use pandas load csv file (right now, we read line by line from file). We need to do this change to make the script robust.
+4. We need to put all rows other than the 'app usage' rows into the final file, which is what the uzair scripts produce. Josh needs this.
+5. Our stack based algorithm can actually show how many apps are interacted with each other in a chain manner. This can be used to analyze the connections between Apps.
+
+
+
+
+
