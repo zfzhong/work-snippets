@@ -1,0 +1,4 @@
+02/11
+======
+1. The milestone of Kaleidoscope: we build a StoryEditor that can construct the DAG for a math problem. With this DAG, the system can generate code to construct the story -- logic/data flow --  of the math problem.
+2. We need to logically separate the Story and process of generating inputs. The parser might be able to construct most of the Story, but it might not be able to construct a good set of inputs for the Story. So, we can use the StoryEditor to construct a DAG to generate the input. 
