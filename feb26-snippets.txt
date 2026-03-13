@@ -2,3 +2,15 @@
 ======
 1. The milestone of Kaleidoscope: we build a StoryEditor that can construct the DAG for a math problem. With this DAG, the system can generate code to construct the story -- logic/data flow --  of the math problem.
 2. We need to logically separate the Story and process of generating inputs. The parser might be able to construct most of the Story, but it might not be able to construct a good set of inputs for the Story. So, we can use the StoryEditor to construct a DAG to generate the input. 
+
+02/16
+======
+1. Srihari has a definition of 'glance': when message from phone comes in, a person gets intrrupted, then it's a glance. We need to define 'interruption' though.
+2. in charge of slack, invite drew
+3. drew: complete understand the columns of log file, produce some visual graphs, become an expert of usagestats on android.
+4. create a slogger on apple.
+
+02/22
+======
+1. Implemented 'vectorization' in kaleidoscope. I am not sure how much this system can improve the efficiency (and quality) of building math models. I need to work on it manually for at least 100 problems to have a good estimate.
+2. For kaleidoscope, the key problem is: build good models efficiently (quickly). Right now, it takes me hours to build a Story DAG for one problem. Speeding up the process is the challenge. 
