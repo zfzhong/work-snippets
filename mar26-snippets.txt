@@ -16,3 +16,21 @@ Link: https://www.youtube.com/watch?v=TvFvL_sMg4g&t=855s
 =====
 1. Built DAG for linear equations sytems and pythagorean (with graphs) problems. Should test the Online Education Studio system with joining class and taking exam online.
 2. Need to finish writing architecture and introduction section of the robotics report. Plot click-router like diagrams if possible (with codex help).
+
+03/13
+======
+1. With codex we built a click-canvas web app that generates click-style diagrams. This is so cool. Why is this great? Using metapost to fine-grain control the layout and connection, but this requires a lot of coding effort. We decopule this: 1) using ui interface to wire blocks -- this creates the logic dependency of elements easily; 2) generate metapost code based on the dependency graph, and then realign these elements. So, the connecting part is easy using ui but difficult using code; the alignment part is easy using code but difficult to do manually through ui interface. What a design!
+
+03/15
+======
+1. Developed a new version of alginment algorithm for Kaleidoscop-DAG. This version work fine for complex diagrams. Through I still have doubt on how Codex implement the algorithm I describe. 
+
+03/16
+======
+2. So, how to design an algorithm to align a DAG properly?
+
+03/17
+======
+1. The alignment algorithm works fine for now.
+2. Developed DAG for generating fractional equations (previously done by algebraist). So Kaleidoscope DAG almost realized most of the functionalities of the algebraist system.
+3. Sent the 1st version of robotics report.
